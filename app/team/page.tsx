@@ -13,7 +13,7 @@ export default function Team() {
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">Our Team</h1>
             <p className="text-foreground/70 max-w-3xl mx-auto">
-              Meet the passionate individuals behind TherapyKin who are dedicated to creating a therapeutic companion that combines the best of AI technology with human expertise in mental health.
+              Meet the passionate individuals behind Stride who are dedicated to creating a coaching companion that combines the best of AI technology with human expertise in professional development.
             </p>
           </div>
           
@@ -109,7 +109,7 @@ export default function Team() {
                 <div>
                   <h3 className="font-semibold mb-2">Current Focus</h3>
                   <p className="text-foreground/80">
-                    At TherapyKin, Nicolas leads the technical development, combining expertise in software engineering and artificial intelligence to bring TherapyKin to life. He ensures our AI systems are both powerful and ethically implemented.
+                    At Stride, Nicolas leads the technical development, combining expertise in software engineering and artificial intelligence to bring Stride to life. He ensures our AI systems are both powerful and ethically implemented.
                   </p>
                 </div>
               </div>
@@ -188,14 +188,14 @@ export default function Team() {
                 <div>
                   <h3 className="font-semibold mb-2">Current Focus</h3>
                   <p className="text-foreground/80">
-                    At TherapyKin, Paul focuses on building strategic partnerships with mental health organizations, healthcare providers, and technology companies to expand our reach and impact. He's passionate about making quality mental health support accessible to everyone.
+                    At Stride, Paul focuses on building strategic partnerships with professional development organizations, educational institutions, and technology companies to expand our reach and impact. He's passionate about making quality coaching support accessible to everyone.
                   </p>
                 </div>
                 
                 <div>
                   <h3 className="font-semibold mb-2">Vision</h3>
                   <p className="text-foreground/80">
-                    "I believe that technology, when thoughtfully designed and ethically implemented, can help bridge the gaps in our mental healthcare system. TherapyKin represents our vision of how AI can complement human care, making support available whenever and wherever it's needed."
+                    "I believe that technology, when thoughtfully designed and ethically implemented, can help bridge the gaps in professional development. Stride represents our vision of how AI can complement human coaching, making support available whenever and wherever it's needed."
                   </p>
                 </div>
               </div>
@@ -208,7 +208,7 @@ export default function Team() {
             
             <div className="card p-8 shadow-depth">
               <p className="text-lg mb-6 text-center">
-                At TherapyKin, we believe that the most innovative solutions come from close collaboration across disciplines. Our small, dedicated team brings together expertise in AI development, mental health, and business strategy.
+                At Stride, we believe that the most innovative solutions come from close collaboration across disciplines. Our small, dedicated team brings together expertise in AI development, professional coaching, and business strategy.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -231,9 +231,9 @@ export default function Team() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-semibold mb-3">Therapeutic Expertise</h3>
+                  <h3 className="text-xl font-semibold mb-3">Coaching Expertise</h3>
                   <p className="text-foreground/70">
-                    We work closely with mental health professionals to ensure our approaches are grounded in evidence-based therapeutic techniques.
+                    We work closely with professional coaches to ensure our approaches are grounded in evidence-based coaching techniques.
                   </p>
                 </div>
                 
@@ -256,7 +256,7 @@ export default function Team() {
           <div className="card p-8 shadow-depth text-center">
             <h2 className="text-2xl font-bold mb-4">Join Our Team</h2>
             <p className="text-foreground/70 mb-8 max-w-2xl mx-auto">
-              We're always looking for passionate individuals who share our vision of making quality mental health support accessible to everyone. If you're interested in joining our team, we'd love to hear from you.
+              We're always looking for passionate individuals who share our vision of making quality professional development support accessible to everyone. If you're interested in joining our team, we'd love to hear from you.
             </p>
             <Link 
               href="/contact" 

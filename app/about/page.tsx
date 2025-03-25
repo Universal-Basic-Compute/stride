@@ -11,9 +11,9 @@ export default function About() {
       <main className="flex-grow pt-24 pb-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">About TherapyKin</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">About Stride</h1>
             <p className="text-foreground/70 max-w-3xl mx-auto">
-              The story behind our mission to create a therapeutic companion that combines the best of AI technology with human expertise in mental health.
+              The story behind our mission to create a coaching companion that combines the best of AI technology with human expertise in professional development.
             </p>
           </div>
           
@@ -23,13 +23,13 @@ export default function About() {
               <h2 className="text-2xl font-bold mb-6 text-center">Our Mission</h2>
               <div className="max-w-4xl mx-auto">
                 <p className="text-lg mb-6">
-                  At TherapyKin, we believe that everyone deserves access to high-quality mental health support that's personalized, consistent, and available whenever needed. Our mission is to combine the best of artificial intelligence with human expertise to create a therapeutic companion that truly understands and grows with you.
+                  At Stride, we believe that everyone deserves access to high-quality coaching support that's personalized, consistent, and available whenever needed. Our mission is to combine the best of artificial intelligence with human expertise to create a coaching companion that truly understands and grows with you.
                 </p>
                 <p className="text-lg mb-6">
-                  We're working to bridge the gap in mental health care by providing a solution that complements traditional therapy, extends support between sessions, and offers a first step for those who might not otherwise seek help.
+                  We're working to bridge the gap in professional development by providing a solution that complements traditional coaching, extends support between sessions, and offers a first step for those who might not otherwise seek guidance.
                 </p>
                 <p className="text-lg">
-                  By harnessing the power of advanced AI while maintaining a deep respect for the human elements of therapy, we're creating a new kind of support system—one that remembers your journey, adapts to your needs, and helps you build lasting resilience.
+                  By harnessing the power of advanced AI while maintaining a deep respect for the human elements of coaching, we're creating a new kind of support system—one that remembers your journey, adapts to your needs, and helps you build lasting success.
                 </p>
               </div>
             </div>
@@ -43,10 +43,10 @@ export default function About() {
               <div>
                 <h3 className="text-xl font-semibold mb-4">Why We Need Both</h3>
                 <p className="text-foreground/70 mb-6">
-                  TherapyKin represents a new paradigm in mental health support—one that recognizes the unique strengths of both human expertise and artificial intelligence. We believe that neither can reach its full potential in isolation.
+                  Stride represents a new paradigm in professional development—one that recognizes the unique strengths of both human expertise and artificial intelligence. We believe that neither can reach its full potential in isolation.
                 </p>
                 <p className="text-foreground/70">
-                  Our approach combines the empathy, ethical judgment, and specialized knowledge of mental health professionals with the consistency, availability, and pattern recognition capabilities of advanced AI systems. This collaboration creates something greater than the sum of its parts.
+                  Our approach combines the empathy, ethical judgment, and specialized knowledge of professional coaches with the consistency, availability, and pattern recognition capabilities of advanced AI systems. This collaboration creates something greater than the sum of its parts.
                 </p>
               </div>
               <div className="card p-6 shadow-depth bg-[var(--background-alt)]">
@@ -94,8 +94,8 @@ export default function About() {
                     <li className="flex items-start">
                       <div className="w-6 h-6 rounded-full bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] mr-3 mt-0.5">1</div>
                       <div>
-                        <p className="font-medium">Therapeutic Framework Design</p>
-                        <p className="text-sm text-foreground/70">Our licensed therapist designs the therapeutic approaches and frameworks that guide TherapyKin's interactions.</p>
+                        <p className="font-medium">Coaching Framework Design</p>
+                        <p className="text-sm text-foreground/70">Our professional coaches design the approaches and frameworks that guide Stride's interactions.</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -123,12 +123,12 @@ export default function About() {
                 </div>
               </div>
               <div className="order-1 md:order-2">
-                <h3 className="text-xl font-semibold mb-4">Bridging Technology and Therapy</h3>
+                <h3 className="text-xl font-semibold mb-4">Bridging Technology and Coaching</h3>
                 <p className="text-foreground/70 mb-6">
-                  TherapyKin isn't just an AI system—it's the product of ongoing collaboration between our small, dedicated team of experts in mental health, AI development, and business strategy. This multidisciplinary approach ensures that our technology remains grounded in clinical best practices while pushing the boundaries of what's possible.
+                  Stride isn't just an AI system—it's the product of ongoing collaboration between our small, dedicated team of experts in professional coaching, AI development, and business strategy. This multidisciplinary approach ensures that our technology remains grounded in coaching best practices while pushing the boundaries of what's possible.
                 </p>
                 <p className="text-foreground/70">
-                  Our therapist guides the development of therapeutic approaches, reviews interaction patterns, and helps refine the system's responses. Meanwhile, our AI specialist works to implement these insights, creating a system that can understand nuance, remember context, and provide personalized support.
+                  Our coaching experts guide the development of effective approaches, review interaction patterns, and help refine the system's responses. Meanwhile, our AI specialists work to implement these insights, creating a system that can understand nuance, remember context, and provide personalized support.
                 </p>
               </div>
             </div>
@@ -171,10 +171,10 @@ export default function About() {
                     <span className="text-2xl font-bold text-[var(--primary)]">TBA</span>
                   </div>
                 </div>
-                <h3 className="text-xl font-semibold mb-1">Clinical Expert</h3>
-                <p className="text-foreground/60 mb-3">Therapeutic Director</p>
+                <h3 className="text-xl font-semibold mb-1">Coaching Expert</h3>
+                <p className="text-foreground/60 mb-3">Professional Development Director</p>
                 <p className="text-foreground/70 text-sm">
-                  Our licensed therapist brings clinical expertise to TherapyKin, ensuring all interactions are grounded in evidence-based therapeutic approaches. They guide our therapeutic framework and provide ongoing clinical oversight.
+                  Our coaching expert brings professional development expertise to Stride, ensuring all interactions are grounded in evidence-based coaching approaches. They guide our coaching framework and provide ongoing professional oversight.
                 </p>
               </div>
             </div>
@@ -227,7 +227,7 @@ export default function About() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Evidence-Based Approaches</h3>
                 <p className="text-foreground/70">
-                  We ground our therapeutic frameworks in established, evidence-based approaches like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and mindfulness practices. This ensures that TherapyKin's support is based on techniques with proven effectiveness.
+                  We ground our coaching frameworks in established, evidence-based approaches like GROW model, Strengths-Based Coaching, and Solution-Focused techniques. This ensures that Stride's support is based on methods with proven effectiveness.
                 </p>
               </div>
               
@@ -247,14 +247,14 @@ export default function About() {
           
           {/* The Future of Mental Health Support */}
           <section className="mb-20">
-            <h2 className="text-2xl font-bold mb-8 text-center">The Future of Mental Health Support</h2>
+            <h2 className="text-2xl font-bold mb-8 text-center">The Future of Professional Development</h2>
             
             <div className="card p-8 shadow-depth">
               <p className="text-lg mb-6">
-                We believe that the future of mental health support lies in thoughtful collaboration between human expertise and AI technology. TherapyKin represents our vision of this future—a world where everyone has access to personalized, high-quality mental health support whenever they need it.
+                We believe that the future of professional development lies in thoughtful collaboration between human expertise and AI technology. Stride represents our vision of this future—a world where everyone has access to personalized, high-quality coaching support whenever they need it.
               </p>
               <p className="text-lg mb-6">
-                As we continue to develop TherapyKin, we remain committed to our core values: respect for human dignity, evidence-based approaches, ethical AI development, and accessibility. We envision a future where TherapyKin serves as a valuable complement to traditional therapy, helping to bridge gaps in care and extend support to those who might otherwise go without.
+                As we continue to develop Stride, we remain committed to our core values: respect for human potential, evidence-based approaches, ethical AI development, and accessibility. We envision a future where Stride serves as a valuable complement to traditional coaching, helping to bridge gaps in support and extend guidance to those who might otherwise go without.
               </p>
               <p className="text-lg">
                 We're excited to be part of this journey, and we invite you to join us in reimagining what mental health support can be in the digital age.
@@ -267,7 +267,7 @@ export default function About() {
             <div className="card p-8 shadow-depth text-center">
               <h2 className="text-2xl font-bold mb-4">Join Us on This Journey</h2>
               <p className="text-foreground/70 mb-8 max-w-2xl mx-auto">
-                Experience the future of mental health support with TherapyKin. Start your free trial today and discover how our unique blend of AI technology and human therapeutic expertise can support your wellbeing.
+                Experience the future of professional development with Stride. Start your free trial today and discover how our unique blend of AI technology and human coaching expertise can support your growth.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
