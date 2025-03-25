@@ -37,8 +37,8 @@ export default function FeatureHighlights() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Evidence-Based Approaches</h3>
-            <p className="text-foreground/70">Access therapeutic techniques from CBT, DBT, ACT, mindfulness practices, and more—all backed by research and clinical expertise.</p>
+            <h3 className="text-xl font-semibold mb-3">Evidence-Based Coaching Methods</h3>
+            <p className="text-foreground/70">Access proven coaching frameworks like GROW, Strengths-Based Coaching, and Solution-Focused techniques—all backed by research and professional expertise.</p>
           </div>
           
           <div className="card card-primary card-hover-border p-6 transition-all">
@@ -67,8 +67,8 @@ export default function FeatureHighlights() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
             </div>
-            <h3 className="text-xl font-semibold mb-3">Crisis Resources</h3>
-            <p className="text-foreground/70">Immediate grounding techniques during difficult moments, with seamless escalation to human support when needed for your safety and wellbeing.</p>
+            <h3 className="text-xl font-semibold mb-3">Performance Resources</h3>
+            <p className="text-foreground/70">Immediate access to tools and frameworks during challenging professional situations, with seamless escalation to human expertise when needed.</p>
           </div>
         </div>
       </div>

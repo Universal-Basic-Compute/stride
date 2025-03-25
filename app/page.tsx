@@ -20,9 +20,9 @@ export default function Home() {
       {/* Hero Section */}
       <header className="flex flex-col items-center justify-center text-center py-24 px-4 bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] texture-overlay animated-bg relative">
         <div className="animate-fade-in max-w-6xl mx-auto text-white z-10 relative">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-md">Your AI Coach for Consistent Progress</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-md">Your AI Executive Coach</h1>
           <h2 className="text-xl md:text-2xl max-w-3xl mb-8 text-white font-medium drop-shadow-md">
-            Personalized guidance that evolves with you, available whenever you need it.
+            Strategic guidance for professional excellence, available 24/7 to accelerate your career growth.
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
@@ -148,8 +148,8 @@ export default function Home() {
             {/* Step 1 */}
             <div className="card p-6 card-hover-lift">
               <div className="w-12 h-12 rounded-full bg-[var(--primary)] text-white flex items-center justify-center font-bold mb-4">1</div>
-              <h3 className="text-xl font-semibold mb-3">Personalized Onboarding</h3>
-              <p className="text-foreground/70 mb-4">Tell Stride about your goals, challenges, and preferences to create your tailored coaching experience.</p>
+              <h3 className="text-xl font-semibold mb-3">Professional Assessment</h3>
+              <p className="text-foreground/70 mb-4">Tell Stride about your career goals, leadership challenges, and work style to create your tailored executive coaching plan.</p>
               <div className="mt-4 bg-[var(--background-alt)] rounded-lg p-4">
                 <div className="w-full h-4 bg-white/50 rounded-full overflow-hidden">
                   <div className="h-full bg-[var(--primary)] w-3/4 rounded-full"></div>

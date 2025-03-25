@@ -16,12 +16,12 @@ export default function CommunicationFlexibility() {
               <div className="flex items-start mb-4">
                 <div className="w-10 h-10 rounded-full bg-[var(--primary)]/20 flex items-center justify-center text-[var(--primary)] font-bold mr-3 mt-1">T</div>
                 <div className="bg-[var(--background-alt)] p-3 rounded-lg rounded-tl-none max-w-xs">
-                  <p className="text-sm">I've been feeling really anxious about my presentation tomorrow. I can't seem to focus on anything else.</p>
+                  <p className="text-sm">I need to prepare for a critical client presentation tomorrow, but I'm struggling to organize my thoughts and prioritize key points.</p>
                 </div>
               </div>
               <div className="flex items-start mb-4 justify-end">
                 <div className="bg-[var(--primary)]/10 p-3 rounded-lg rounded-tr-none max-w-xs">
-                  <p className="text-sm">That sounds challenging. Let's work through this together. What specific aspects of the presentation are causing you the most worry?</p>
+                  <p className="text-sm">Let's structure this strategically. What are the three most important outcomes you want from this presentation? We can build your framework from there.</p>
                 </div>
                 <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold ml-3 mt-1">S</div>
               </div>

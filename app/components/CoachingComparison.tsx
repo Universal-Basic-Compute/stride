@@ -51,6 +51,12 @@ export default function CoachingComparison() {
                 </svg>
                 <span className="text-foreground/70">May forget details between sessions</span>
               </li>
+              <li className="flex items-start">
+                <svg className="h-5 w-5 text-[var(--primary)] mr-3 mt-0.5 opacity-50" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                <span className="text-foreground/70">Limited implementation support between sessions</span>
+              </li>
             </ul>
           </div>
           
@@ -93,6 +99,18 @@ export default function CoachingComparison() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 <span>Consistent support and accountability</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="h-5 w-5 text-[var(--accent)] mr-3 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Strategic implementation support</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="h-5 w-5 text-[var(--accent)] mr-3 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                </svg>
+                <span>Data-driven performance insights</span>
               </li>
             </ul>
           </div>
