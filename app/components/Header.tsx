@@ -104,22 +104,22 @@ export default function Header() {
                         Generalist
                       </Link>
                       <Link 
-                        href="/specialists/crypto" 
-                        className="block px-4 py-2 text-sm text-foreground/70 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)]"
-                      >
-                        Crypto Specialist
-                      </Link>
-                      <Link 
-                        href="/specialists/athletes" 
-                        className="block px-4 py-2 text-sm text-foreground/70 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)]"
-                      >
-                        Athletes Specialist
-                      </Link>
-                      <Link 
                         href="/specialists/executives" 
                         className="block px-4 py-2 text-sm text-foreground/70 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)]"
                       >
                         Executives Specialist
+                      </Link>
+                      <Link 
+                        href="/specialists/entrepreneurs" 
+                        className="block px-4 py-2 text-sm text-foreground/70 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)]"
+                      >
+                        Entrepreneur Specialist
+                      </Link>
+                      <Link 
+                        href="/specialists/women" 
+                        className="block px-4 py-2 text-sm text-foreground/70 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)]"
+                      >
+                        Women's Coach
                       </Link>
                     </div>
                   </div>
@@ -317,25 +317,25 @@ export default function Header() {
                 Generalist
               </Link>
               <Link 
-                href="/specialists/crypto" 
-                className="text-foreground/70 hover:text-[var(--primary)] block px-3 py-2 text-base font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Crypto Specialist
-              </Link>
-              <Link 
-                href="/specialists/athletes" 
-                className="text-foreground/70 hover:text-[var(--primary)] block px-3 py-2 text-base font-medium"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Athletes Specialist
-              </Link>
-              <Link 
                 href="/specialists/executives" 
                 className="text-foreground/70 hover:text-[var(--primary)] block px-3 py-2 text-base font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Executives Specialist
+              </Link>
+              <Link 
+                href="/specialists/entrepreneurs" 
+                className="text-foreground/70 hover:text-[var(--primary)] block px-3 py-2 text-base font-medium"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Entrepreneur Specialist
+              </Link>
+              <Link 
+                href="/specialists/women" 
+                className="text-foreground/70 hover:text-[var(--primary)] block px-3 py-2 text-base font-medium"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Women's Coach
               </Link>
               
               <p className="px-3 py-1 text-xs uppercase text-foreground/40 font-semibold mt-2">Resources</p>
