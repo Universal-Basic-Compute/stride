@@ -18,19 +18,19 @@ export default function Home() {
       
       <div className="pt-16">
       {/* Hero Section with improved gradient background */}
-      <header className="flex flex-col items-center justify-center text-center py-24 px-4 bg-gradient-to-br from-[#00c5bc] via-[#00e1d5] to-[#4fffee] texture-overlay animated-bg relative">
+      <header className="flex flex-col items-center justify-center text-center py-24 px-4 bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] texture-overlay animated-bg relative">
         <div className="animate-fade-in max-w-6xl mx-auto text-white z-10 relative">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-md">TherapyKin</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-md">Stride</h1>
           <h2 className="text-xl md:text-2xl max-w-3xl mb-8 text-white font-medium drop-shadow-md">
-            A Companion That Remembers, Adapts, and Grows With You
+            AI-Powered Coaching That Helps You Achieve Your Goals
           </h2>
           <p className="text-lg max-w-2xl mx-auto mb-10 text-white drop-shadow-sm font-medium">
-            TherapyKin is more than an AI—it's a therapeutic companion that builds a genuine relationship with you over time. Unlike traditional therapy apps that reset with each session, TherapyKin remembers your history, learns your preferences, and evolves alongside you.
+            Stride is an AI-powered coaching platform that helps individuals achieve their personal and professional goals through personalized guidance, actionable insights, continuous support, and data-driven feedback.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/register" 
-              className="btn-primary bg-white text-[#00c5bc] hover:bg-opacity-90 shadow-lg"
+              className="btn-primary bg-white text-[#3563E9] hover:bg-opacity-90 shadow-lg"
             >
               Get 3 Free Sessions
             </Link>
@@ -157,15 +157,15 @@ export default function Home() {
       <PricingTiers />
 
 
-      {/* Final CTA - with teal-focused gradient background */}
-      <section className="py-24 px-4 bg-gradient-to-br from-[#00c5bc] via-[#00e1d5] to-[#4fffee] texture-overlay animated-bg relative text-white">
+      {/* Final CTA - with blue-focused gradient background */}
+      <section className="py-24 px-4 bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] texture-overlay animated-bg relative text-white">
         <div className="max-w-3xl mx-auto text-center relative z-10">
-          <h2 className="text-4xl font-bold mb-6 drop-shadow-md">Ready For A Different Kind Of Support?</h2>
-          <p className="text-xl mb-10 font-medium drop-shadow-sm">Start Your Journey Today</p>
+          <h2 className="text-4xl font-bold mb-6 drop-shadow-md">Ready To Achieve Your Goals?</h2>
+          <p className="text-xl mb-10 font-medium drop-shadow-sm">Start Your Coaching Journey Today</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/register" 
-              className="rounded-full bg-white text-[#00c5bc] px-8 py-3 font-medium hover:bg-opacity-90 transition-all shadow-lg"
+              className="rounded-full bg-white text-[#3563E9] px-8 py-3 font-medium hover:bg-opacity-90 transition-all shadow-lg"
             >
               Get 3 Free Sessions
             </Link>
@@ -176,8 +176,8 @@ export default function Home() {
               Learn More
             </Link>
           </div>
-          <p className="mt-10 font-medium">Questions? Contact us at <a href="mailto:support@therapykin.ai" className="underline hover:text-white/80">support@therapykin.ai</a></p>
-          <p className="mt-4 text-xs max-w-2xl mx-auto font-medium">TherapyKin is not a replacement for professional mental health treatment. If you're experiencing a mental health emergency, please contact a crisis helpline or emergency services immediately.</p>
+          <p className="mt-10 font-medium">Questions? Contact us at <a href="mailto:info@stride-ai.com" className="underline hover:text-white/80">info@stride-ai.com</a></p>
+          <p className="mt-4 text-xs max-w-2xl mx-auto font-medium">Stride is designed to complement your personal development journey. For professional advice, please consult with qualified specialists in your field of interest.</p>
         </div>
         
         {/* Add semi-transparent overlay for better text readability */}

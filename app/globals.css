@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 :root {
-  /* Primary brand color - colors from logo gradient */
-  --primary: #00c5bc; /* Darker teal */
-  --primary-light: #8ced7d; /* Green from logo */
-  --primary-dark: #a571ff; /* Adjusted purple */
+  /* Primary brand colors for Stride */
+  --primary: #3563E9; /* Blue as primary color */
+  --primary-light: #6B8EFC; /* Lighter blue */
+  --primary-dark: #1E3A8A; /* Darker blue */
   
-  /* Secondary accent - colors from logo gradient */
-  --accent: #ffde45; /* Adjusted yellow */
-  --accent-light: #ff9d76; /* Adjusted pink/orange */
+  /* Secondary accent colors */
+  --accent: #22C55E; /* Green for success/progress */
+  --accent-light: #4ADE80; /* Lighter green */
   
-  /* Neutral backgrounds - less stark white, more subtle tones */
+  /* Neutral backgrounds */
   --background: #f8fafc;
   --background-alt: #f1f5f9;
   --foreground: #1e293b;
@@ -21,12 +21,12 @@
   --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.1);
   
   /* Additional colors for visual interest */
-  --highlight: #8b5cf6;
+  --highlight: #8b5cf6; /* Purple for highlights */
   --highlight-light: #a78bfa;
-  --warm: #f97316;
+  --warm: #f97316; /* Orange for energy/motivation */
   --warm-light: #fb923c;
-  --cool: #06b6d4;
-  --cool-light: #22d3ee;
+  --cool: #0EA5E9; /* Sky blue for calm/focus */
+  --cool-light: #38BDF8;
   
   /* Legacy variables for compatibility */
   --primary-foreground: #ffffff;
@@ -34,9 +34,9 @@
   --secondary-foreground: #1e293b;
   
   /* RGB variables for glow effects */
-  --primary-rgb: 0, 197, 188; /* Teal */
-  --accent-rgb: 255, 222, 69; /* Yellow */
-  --primary-dark-rgb: 165, 113, 255; /* Purple */
+  --primary-rgb: 53, 99, 233; /* Blue */
+  --accent-rgb: 34, 197, 94; /* Green */
+  --primary-dark-rgb: 30, 58, 138; /* Dark blue */
 }
 
 @theme inline {
@@ -52,21 +52,21 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Update dark mode colors to match logo gradient with dark blue theme */
-    --primary: #00e1d5; /* Adjusted teal */
-    --primary-light: #6aff6a; /* Brighter green */
-    --primary-dark: #a571ff; /* Adjusted purple */
+    /* Update dark mode colors to match Stride brand */
+    --primary: #4F74FF; /* Brighter blue */
+    --primary-light: #7B96FF; /* Lighter blue */
+    --primary-dark: #2E4BAE; /* Darker blue */
     
-    --accent: #ffde45; /* Brighter yellow */
-    --accent-light: #ff9d76; /* Brighter orange/pink */
+    --accent: #22C55E; /* Keep green */
+    --accent-light: #4ADE80; /* Lighter green */
     
-    /* Darker, richer backgrounds with dark blue theme */
-    --background: #0a1929; /* Dark blue background */
-    --background-alt: #132f4c; /* Slightly lighter dark blue */
+    /* Darker backgrounds with blue theme */
+    --background: #0F172A; /* Dark blue background */
+    --background-alt: #1E293B; /* Slightly lighter dark blue */
     --foreground: #f1f5f9;
     
     --border: rgba(255, 255, 255, 0.1);
-    --card-bg: #132f4c; /* Match background-alt */
+    --card-bg: #1E293B; /* Match background-alt */
     --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.3);
     
     /* Additional colors for visual interest */
@@ -74,16 +74,16 @@
     --highlight-light: #c4b5fd;
     --warm: #fb923c;
     --warm-light: #fdba74;
-    --cool: #22d3ee;
-    --cool-light: #67e8f9;
+    --cool: #38BDF8;
+    --cool-light: #7DD3FC;
     
     /* Legacy variables for compatibility */
     --primary-foreground: #ffffff;
-    --secondary: #132f4c;
+    --secondary: #1E293B;
     --secondary-foreground: #f1f5f9;
     
     /* RGB variables for dark mode */
-    --primary-rgb: 0, 225, 213; /* Brighter teal for dark mode */
+    --primary-rgb: 79, 116, 255; /* Brighter blue for dark mode */
   }
   
   .card-hover-glow:hover {
@@ -378,11 +378,11 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* User message bubble with teal-focused gradient and standardized effects */
+/* User message bubble with blue-focused gradient and standardized effects */
 .user-message-bubble {
-  background: linear-gradient(135deg, #00c5bc 0%, #4fffee 100%);
+  background: linear-gradient(135deg, #3563E9 0%, #6B8EFC 100%);
   color: white;
-  box-shadow: 0 2px 10px rgba(0, 197, 188, 0.2);
+  box-shadow: 0 2px 10px rgba(53, 99, 233, 0.2);
   transform: translateY(0);
   transition: all 0.3s ease;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -393,7 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .user-message-bubble:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 197, 188, 0.3);
+  box-shadow: 0 4px 12px rgba(53, 99, 233, 0.3);
 }
 
 /* Assistant message bubble with standardized effects */
@@ -454,13 +454,13 @@ h1, h2, h3, h4, h5, h6 {
   }
   
   .user-message-bubble {
-    background: linear-gradient(135deg, #00c5bc 0%, #4fffee 100%);
-    box-shadow: 0 2px 10px rgba(0, 197, 188, 0.3);
+    background: linear-gradient(135deg, #4F74FF 0%, #7B96FF 100%);
+    box-shadow: 0 2px 10px rgba(79, 116, 255, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.15);
   }
   
   .user-message-bubble:hover {
-    box-shadow: 0 4px 12px rgba(0, 197, 188, 0.4);
+    box-shadow: 0 4px 12px rgba(79, 116, 255, 0.4);
   }
 }
 
