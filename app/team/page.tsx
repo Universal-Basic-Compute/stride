@@ -146,12 +146,12 @@ export default function Team() {
                   <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Business Strategy</span>
                 </div>
               </div>
-              
+    
               <div className="space-y-4">
                 <p className="text-foreground/80">
                   Professional Co-Founder dedicated to transforming early-stage ventures into market-ready businesses. At Stride, Paul focuses on building strategic partnerships and developing systems that help professionals achieve their goals through AI-powered coaching.
                 </p>
-                
+      
                 <div className="bg-[var(--background-alt)] p-4 rounded-lg">
                   <h3 className="font-semibold mb-2">Experience Highlights</h3>
                   <ul className="space-y-2">
@@ -184,19 +184,19 @@ export default function Team() {
                     </li>
                   </ul>
                 </div>
-                
+      
                 <div>
                   <h3 className="font-semibold mb-2">Education</h3>
                   <p className="flex items-center">
                     <svg className="h-5 w-5 text-[var(--primary)] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5z" />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
                     </svg>
                     The University of Sheffield, Bachelor's degree in Journalism
                   </p>
                 </div>
-                
+      
                 <div>
                   <h3 className="font-semibold mb-2">Current Focus</h3>
                   <p className="text-foreground/80">
@@ -206,7 +206,105 @@ export default function Team() {
               </div>
             </div>
           </div>
-          
+
+          {/* Advisors */}
+          <div className="mb-20">
+            <h2 className="text-2xl font-bold mb-8 text-center">Our Advisors</h2>
+  
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+              {/* Bassel Tabet */}
+              <div className="card p-8 shadow-depth">
+                <div className="flex flex-col items-center mb-6">
+                  <div className="w-32 h-32 rounded-full bg-gradient-to-br from-[var(--primary)]/30 to-[var(--accent)]/30 flex items-center justify-center mb-4 overflow-hidden">
+                    <span className="text-3xl font-bold text-[var(--primary)]">BT</span>
+                  </div>
+                  <h2 className="text-2xl font-bold mb-1">Bassel Tabet</h2>
+                  <div className="flex items-center mb-2">
+                    <p className="text-foreground/70">Advisor & AI Ethics Specialist</p>
+                    <svg className="h-5 w-5 text-[var(--primary)] ml-2" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z" />
+                    </svg>
+                  </div>
+                  <div className="flex space-x-3 mb-4">
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-[var(--primary)]">
+                      <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                      </svg>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-foreground/60 hover:text-[var(--primary)]">
+                      <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.1 10.1 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                      </svg>
+                    </a>
+                  </div>
+                  <div className="flex flex-wrap gap-2 justify-center mb-4">
+                    <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">AI Ethics</span>
+                    <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Responsible AI</span>
+                    <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Technology Policy</span>
+                  </div>
+                </div>
+      
+                <div className="space-y-4">
+                  <p className="text-foreground/80">
+                    Bassel is an AI ethics specialist with extensive experience in developing responsible AI frameworks. He advises Stride on ethical implementation of AI coaching technologies, ensuring our systems prioritize user wellbeing and adhere to the highest standards of responsible innovation.
+                  </p>
+        
+                  <div className="bg-[var(--background-alt)] p-4 rounded-lg">
+                    <h3 className="font-semibold mb-2">Experience Highlights</h3>
+                    <ul className="space-y-2">
+                      <li className="flex items-start">
+                        <svg className="h-5 w-5 text-[var(--primary)] mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <div>
+                          <p className="font-medium">AI Ethics Consultant at Tech Ethics Institute</p>
+                          <p className="text-sm text-foreground/60">Jan 2022 - Present</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start">
+                        <svg className="h-5 w-5 text-[var(--primary)] mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <div>
+                          <p className="font-medium">Research Fellow at Center for Responsible Technology</p>
+                          <p className="text-sm text-foreground/60">Mar 2020 - Dec 2021</p>
+                        </div>
+                      </li>
+                      <li className="flex items-start">
+                        <svg className="h-5 w-5 text-[var(--primary)] mr-2 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                        <div>
+                          <p className="font-medium">Policy Advisor at Global AI Initiative</p>
+                          <p className="text-sm text-foreground/60">Jun 2018 - Feb 2020</p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+        
+                  <div>
+                    <h3 className="font-semibold mb-2">Education</h3>
+                    <p className="flex items-center">
+                      <svg className="h-5 w-5 text-[var(--primary)] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998a12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                      </svg>
+                      University of Cambridge, PhD in Technology Ethics
+                    </p>
+                  </div>
+        
+                  <div>
+                    <h3 className="font-semibold mb-2">Advisory Focus</h3>
+                    <p className="text-foreground/80">
+                      At Stride, Bassel guides our ethical framework development, ensuring our AI coaching systems respect user autonomy, maintain transparency, and prioritize genuine wellbeing outcomes. He helps us navigate the complex ethical considerations of AI in personal development contexts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Our Approach */}
           <div className="mb-20">
             <h2 className="text-2xl font-bold mb-8 text-center">Our Collaborative Approach</h2>
