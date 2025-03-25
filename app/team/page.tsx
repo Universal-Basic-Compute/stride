@@ -141,15 +141,15 @@ export default function Team() {
                   </a>
                 </div>
                 <div className="flex flex-wrap gap-2 justify-center mb-4">
+                  <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Start-up Support</span>
+                  <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Product Development</span>
                   <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Business Strategy</span>
-                  <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Partnerships</span>
-                  <span className="bg-[var(--primary)]/10 text-[var(--primary)] px-3 py-1 rounded-full text-xs font-medium">Growth</span>
                 </div>
               </div>
               
               <div className="space-y-4">
                 <p className="text-foreground/80">
-                  Paul drives TherapyKin's business strategy and partnerships, working to make our therapeutic companion accessible to those who need it most. His focus on sustainable growth ensures we can fulfill our mission while building a viable business.
+                  Professional Co-Founder dedicated to transforming early-stage ventures into market-ready businesses. At Stride, Paul focuses on building strategic partnerships and developing systems that help professionals achieve their goals through AI-powered coaching.
                 </p>
                 
                 <div className="bg-[var(--background-alt)] p-4 rounded-lg">
@@ -160,8 +160,8 @@ export default function Team() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                       </svg>
                       <div>
-                        <p className="font-medium">Business Development Lead at DigitalKin</p>
-                        <p className="text-sm text-foreground/60">Jan 2023 - Dec 2024</p>
+                        <p className="font-medium">Co-Founder at C. Clarke Bros. Software Development</p>
+                        <p className="text-sm text-foreground/60">Mar 2024 - Present</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -169,8 +169,8 @@ export default function Team() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                       </svg>
                       <div>
-                        <p className="font-medium">Strategic Partnerships Manager</p>
-                        <p className="text-sm text-foreground/60">2018 - 2022</p>
+                        <p className="font-medium">Product Manager at $UBC - Universal Basic Compute</p>
+                        <p className="text-sm text-foreground/60">Sep 2024 - Present</p>
                       </div>
                     </li>
                     <li className="flex items-start">
@@ -178,24 +178,29 @@ export default function Team() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
                       </svg>
                       <div>
-                        <p className="font-medium">Business Development Consultant</p>
-                        <p className="text-sm text-foreground/60">2015 - 2018</p>
+                        <p className="font-medium">Chief Executive Officer at Ardoda</p>
+                        <p className="text-sm text-foreground/60">Mar 2021 - Mar 2025</p>
                       </div>
                     </li>
                   </ul>
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold mb-2">Current Focus</h3>
-                  <p className="text-foreground/80">
-                    At Stride, Paul focuses on building strategic partnerships with professional development organizations, educational institutions, and technology companies to expand our reach and impact. He's passionate about making quality coaching support accessible to everyone.
+                  <h3 className="font-semibold mb-2">Education</h3>
+                  <p className="flex items-center">
+                    <svg className="h-5 w-5 text-[var(--primary)] mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                    </svg>
+                    The University of Sheffield, Bachelor's degree in Journalism
                   </p>
                 </div>
                 
                 <div>
-                  <h3 className="font-semibold mb-2">Vision</h3>
+                  <h3 className="font-semibold mb-2">Current Focus</h3>
                   <p className="text-foreground/80">
-                    "I believe that technology, when thoughtfully designed and ethically implemented, can help bridge the gaps in professional development. Stride represents our vision of how AI can complement human coaching, making support available whenever and wherever it's needed."
+                    At Stride, Paul leverages his expertise in startup development and product management to create an AI coaching platform that delivers real value to professionals. He excels at bridging the gap between technical capabilities and user needs, ensuring Stride provides meaningful support for career growth and professional development.
                   </p>
                 </div>
               </div>
