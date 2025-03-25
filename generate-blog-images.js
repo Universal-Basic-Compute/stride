@@ -121,11 +121,12 @@ The prompt should be detailed and descriptive, focusing on creating a profession
 that would work well for a mental health/therapy blog.
 
 Important style requirements:
-- Use duotone photography with dark green (#1D4E4E) and amber (#E67E22) color treatment
-- Real-world professional imagery (not illustrations)
-- Keep the style clean, modern, and professional
-- Ensure the image feels sophisticated and business-appropriate
-- Use high-quality photographic imagery with the duotone effect applied
+- Scene treated with a modern duotone effect in darkgreen (#1D4E4E) and amber (#E67E22)
+- Clean, contemporary aesthetic with strong contrast and clear details
+- Sophisticated treatment that transforms realistic photography into a branded visual
+- Suitable for an AI coaching application
+- Professional and business-appropriate imagery
+- High-quality photographic base with the duotone effect applied
 
 Do not include any explanations or additional text.`;
 
