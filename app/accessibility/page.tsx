@@ -13,10 +13,10 @@ export default function Accessibility() {
           <h1 className="text-3xl md:text-4xl font-bold mb-8">Accessibility Statement</h1>
           
           <div className="prose prose-lg max-w-none">
-            <p className="text-lg mb-6">Last Updated: June 1, 2023</p>
+            <p className="text-lg mb-6">Last Updated: March 15, 2024</p>
             
             <p className="mb-6">
-              At TherapyKin, we are committed to ensuring digital accessibility for people of all abilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards.
+              At Stride, we are committed to ensuring digital accessibility for people of all abilities. We are continually improving the user experience for everyone and applying the relevant accessibility standards.
             </p>
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Our Commitment</h2>
@@ -29,7 +29,7 @@ export default function Accessibility() {
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Accessibility Features</h2>
             <p className="mb-4">
-              TherapyKin includes the following accessibility features:
+              Stride includes the following accessibility features:
             </p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
               <li>Keyboard navigation support throughout the application</li>
@@ -49,13 +49,13 @@ export default function Accessibility() {
             <ul className="list-disc pl-6 mb-6 space-y-2">
               <li>Light and dark mode support that respects system preferences</li>
               <li>Voice interaction as an alternative to text input</li>
-              <li>Adjustable session length to accommodate different needs</li>
-              <li>Multiple ways to communicate with TherapyKin (text, voice, or both)</li>
+              <li>Adjustable coaching session length to accommodate different needs</li>
+              <li>Multiple ways to communicate with Stride (text, voice, or both)</li>
             </ul>
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Compatibility with Assistive Technologies</h2>
             <p className="mb-6">
-              TherapyKin is designed to be compatible with a variety of assistive technologies, including:
+              Stride is designed to be compatible with a variety of assistive technologies, including:
             </p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
               <li>Screen readers (such as JAWS, NVDA, VoiceOver, and TalkBack)</li>
@@ -76,9 +76,9 @@ export default function Accessibility() {
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Feedback and Assistance</h2>
             <p className="mb-6">
-              We welcome your feedback on the accessibility of TherapyKin. If you encounter any barriers or have suggestions for improvement, please contact us at:
+              We welcome your feedback on the accessibility of Stride. If you encounter any barriers or have suggestions for improvement, please contact us at:
             </p>
-            <p className="mb-2">Email: <a href="mailto:accessibility@therapykin.ai" className="text-[var(--primary)] hover:underline">accessibility@therapykin.ai</a></p>
+            <p className="mb-2">Email: <a href="mailto:accessibility@stridecoaching.ai" className="text-[var(--primary)] hover:underline">accessibility@stridecoaching.ai</a></p>
             <p className="mb-6">Phone: (555) 123-4567</p>
             
             <p className="mb-6">
@@ -90,7 +90,7 @@ export default function Accessibility() {
               We are committed to ongoing accessibility improvements. Our development team regularly reviews our platform, incorporates accessibility into our design and development process, and stays informed about new technologies and standards.
             </p>
             <p className="mb-6">
-              This statement was last updated on June 1, 2023, and will be reviewed and updated as our platform evolves.
+              This statement was last updated on March 15, 2024, and will be reviewed and updated as our platform evolves.
             </p>
           </div>
           
