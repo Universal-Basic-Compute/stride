@@ -13,7 +13,7 @@ export default function Testimonials() {
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">Testimonials</h1>
             <p className="text-foreground/70 max-w-3xl mx-auto">
-              Real stories from people who've made TherapyKin part of their mental health journey
+              Real stories from people who've made Stride part of their professional development journey
             </p>
           </div>
           
@@ -31,17 +31,17 @@ export default function Testimonials() {
             </p>
             <p className="text-foreground/70 mb-6">
               In the meantime, we'll be honest with you – those glowing reviews you saw on our homepage? 
-              They're AI-generated placeholders. We know, we know... using AI-generated testimonials for an AI therapy 
+              They're AI-generated placeholders. We know, we know... using AI-generated testimonials for an AI coaching 
               product is a bit meta, isn't it?
             </p>
             <p className="text-foreground/70 mb-8">
-              But soon, this page will feature real stories from real humans who have experienced the benefits of TherapyKin firsthand. 
+              But soon, this page will feature real stories from real humans who have experienced the benefits of Stride firsthand. 
               No AI embellishment needed – just authentic experiences.
             </p>
             
             <div className="card p-6 bg-[var(--background-alt)] max-w-md mx-auto mb-8">
               <p className="italic text-sm">
-                "Want to share your TherapyKin experience? We'd love to hear from you! Your story could help others discover the support they need."
+                "Want to share your Stride experience? We'd love to hear from you! Your story could help others discover the support they need."
               </p>
             </div>
             
@@ -63,7 +63,7 @@ export default function Testimonials() {
               <div className="card p-6 shadow-depth relative">
                 <div className="absolute -top-3 -left-3 text-5xl text-[var(--primary)] opacity-20">"</div>
                 <p className="mb-6 relative z-10">
-                  This is where we'll showcase real feedback from actual TherapyKin users, highlighting their authentic experiences and the impact on their mental health journey.
+                  This is where we'll showcase real feedback from actual Stride users, highlighting their authentic experiences and the impact on their professional development journey.
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 rounded-full bg-[var(--primary)]/20 flex items-center justify-center text-[var(--primary)] font-bold mr-3">R</div>
@@ -77,7 +77,7 @@ export default function Testimonials() {
               <div className="card p-6 shadow-depth relative">
                 <div className="absolute -top-3 -left-3 text-5xl text-[var(--primary)] opacity-20">"</div>
                 <p className="mb-6 relative z-10">
-                  Each testimonial will include specific details about how TherapyKin helped with particular challenges, the features they found most valuable, and the outcomes they experienced.
+                  Each testimonial will include specific details about how Stride helped with particular challenges, the features they found most valuable, and the outcomes they experienced.
                 </p>
                 <div className="flex items-center">
                   <div className="w-10 h-10 rounded-full bg-[var(--primary)]/20 flex items-center justify-center text-[var(--primary)] font-bold mr-3">H</div>
@@ -94,8 +94,8 @@ export default function Testimonials() {
           <div className="card p-8 shadow-depth text-center max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-4">Be Among the First to Share Your Story</h2>
             <p className="text-foreground/70 mb-6">
-              If you've been using TherapyKin and would like to share your experience, we'd be honored to feature your testimonial. 
-              Your insights could help others who are considering taking this step in their mental health journey.
+              If you've been using Stride and would like to share your experience, we'd be honored to feature your testimonial. 
+              Your insights could help others who are considering taking this step in their professional development journey.
             </p>
             <Link 
               href="/contact" 
