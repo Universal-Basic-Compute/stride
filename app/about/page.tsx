@@ -148,7 +148,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold mb-1">Nicolas Lester Reynolds</h3>
                 <p className="text-foreground/60 mb-3">Development & AI Lead</p>
                 <p className="text-foreground/70 text-sm">
-                  Nicolas leads our technical development, combining expertise in software engineering and artificial intelligence to bring TherapyKin to life. He ensures our AI systems are both powerful and ethically implemented.
+                  Nicolas leads our technical development, combining expertise in software engineering and artificial intelligence to bring Stride to life. He ensures our AI systems are both powerful and ethically implemented.
                 </p>
               </div>
               
@@ -161,7 +161,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold mb-1">Paul C Clarke</h3>
                 <p className="text-foreground/60 mb-3">Business Development</p>
                 <p className="text-foreground/70 text-sm">
-                  Paul drives our business strategy and partnerships, working to make TherapyKin accessible to those who need it most. His focus on sustainable growth ensures we can fulfill our mission while building a viable business.
+                  Paul drives our business strategy and partnerships, working to make Stride accessible to those who need it most. His focus on sustainable growth ensures we can fulfill our mission while building a viable business.
                 </p>
               </div>
               
