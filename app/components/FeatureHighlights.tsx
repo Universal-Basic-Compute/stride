@@ -6,7 +6,7 @@ export default function FeatureHighlights() {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-4 text-center">Built For Real Support</h2>
         <p className="text-center max-w-2xl mx-auto mb-16 text-foreground/70">
-          Thoughtfully designed tools that make a meaningful difference in your mental health journey
+          Thoughtfully designed tools that make a meaningful difference in your professional development journey
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -18,7 +18,7 @@ export default function FeatureHighlights() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-3">Personalized Strategies</h3>
-            <p className="text-foreground/70">Custom coping techniques based on your specific needs and what works for you. TherapyKin learns which approaches help you most.</p>
+            <p className="text-foreground/70">Custom coaching techniques based on your specific needs and what works for you. Stride learns which approaches help you most.</p>
           </div>
           
           <div className="card card-highlight card-hover-glow p-6 transition-all">
@@ -28,7 +28,7 @@ export default function FeatureHighlights() {
               </svg>
             </div>
             <h3 className="text-xl font-semibold mb-3">Continuous Memory</h3>
-            <p className="text-foreground/70">Every conversation builds on previous ones—no repeating your story. TherapyKin remembers your history, challenges, and progress.</p>
+            <p className="text-foreground/70">Every conversation builds on previous ones—no repeating your story. Stride remembers your history, challenges, and progress.</p>
           </div>
           
           <div className="card card-accent card-hover-rotate p-6 transition-all">

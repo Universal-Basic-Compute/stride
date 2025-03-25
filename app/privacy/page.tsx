@@ -112,7 +112,7 @@ export default function PrivacyPolicy() {
               <li>Right to withdraw consent</li>
             </ul>
             <p className="mb-6">
-              To exercise these rights, please contact us at privacy@therapykin.ai or use the relevant features in your account settings.
+              To exercise these rights, please contact us at privacy@stridecoaching.ai or use the relevant features in your account settings.
             </p>
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Children's Privacy</h2>

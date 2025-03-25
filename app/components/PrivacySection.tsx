@@ -8,7 +8,7 @@ export default function PrivacySection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-4">Your Privacy Is Our Priority</h2>
           <p className="text-foreground/70 max-w-2xl mx-auto">
-            TherapyKin was built with privacy as the foundation. We believe your therapeutic journey should be completely private and secure.
+            Stride was built with privacy as the foundation. We believe your coaching journey should be completely private and secure.
           </p>
         </div>
         
@@ -45,7 +45,7 @@ export default function PrivacySection() {
                 </div>
                 <div>
                   <p className="font-medium">Anonymous usage options</p>
-                  <p className="text-sm text-foreground/60">Use TherapyKin without providing personally identifiable information.</p>
+                  <p className="text-sm text-foreground/60">Use Stride without providing personally identifiable information.</p>
                 </div>
               </li>
               <li className="flex items-start">
@@ -84,7 +84,7 @@ export default function PrivacySection() {
                 </div>
                 <div>
                   <p className="font-medium">Never used to train AI models</p>
-                  <p className="text-sm text-foreground/60">Your personal information and conversations are never used to improve our AI.</p>
+                  <p className="text-sm text-foreground/60">Your personal information and coaching conversations are never used to improve our AI.</p>
                 </div>
               </li>
               <li className="flex items-start">

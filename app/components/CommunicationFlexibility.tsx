@@ -5,7 +5,7 @@ export default function CommunicationFlexibility() {
   return (
     <section className="py-20 px-4 bg-[var(--background-alt)]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-center">Your Therapy, Your Way</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center">Your Coaching, Your Way</h2>
         <p className="text-center max-w-2xl mx-auto mb-16 text-foreground/70">
           Communicate however feels most comfortable for you, whenever you need support
         </p>
@@ -23,7 +23,7 @@ export default function CommunicationFlexibility() {
                 <div className="bg-[var(--primary)]/10 p-3 rounded-lg rounded-tr-none max-w-xs">
                   <p className="text-sm">That sounds challenging. Let's work through this together. What specific aspects of the presentation are causing you the most worry?</p>
                 </div>
-                <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold ml-3 mt-1">TK</div>
+                <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold ml-3 mt-1">S</div>
               </div>
               <div className="flex justify-center">
                 <div className="bg-[var(--background)] p-2 rounded-full shadow-sm flex items-center">
@@ -38,15 +38,15 @@ export default function CommunicationFlexibility() {
             <h3 className="text-xl font-semibold mb-3">Voice When You Need To Talk</h3>
             <p className="text-foreground/70 mb-6">Express yourself naturally through conversation when typing feels limiting. Just speak naturally as you would with a therapist.</p>
             <h3 className="text-xl font-semibold mb-3">Switch Seamlessly Between Both</h3>
-            <p className="text-foreground/70">Start typing and switch to voice mid-session as your needs change. TherapyKin maintains context across modalities.</p>
+            <p className="text-foreground/70">Start typing and switch to voice mid-session as your needs change. Stride maintains context across modalities.</p>
           </div>
           
           <div className="relative">
             <div className="card p-6 shadow-depth relative z-10 mx-auto max-w-sm">
               <div className="flex justify-between items-center mb-4">
                 <div className="flex items-center">
-                  <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-2">TK</div>
-                  <span className="font-medium">TherapyKin</span>
+                  <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-2">S</div>
+                  <span className="font-medium">Stride</span>
                 </div>
                 <div className="flex space-x-2">
                   <div className="w-8 h-8 rounded-full bg-[var(--background-alt)] flex items-center justify-center">
@@ -95,7 +95,7 @@ export default function CommunicationFlexibility() {
             
             <div className="mt-8 text-center">
               <h3 className="text-xl font-semibold mb-3">Multiple Device Support</h3>
-              <p className="text-foreground/70">Access TherapyKin from your phone, tablet, computer, or smart speaker. Your therapeutic relationship continues seamlessly across all your devices.</p>
+              <p className="text-foreground/70">Access Stride from your phone, tablet, computer, or smart speaker. Your coaching relationship continues seamlessly across all your devices.</p>
             </div>
           </div>
         </div>

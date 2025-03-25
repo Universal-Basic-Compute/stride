@@ -4,7 +4,7 @@ export default function FlexibleUsage() {
   return (
     <section className="py-16 px-4 bg-[var(--background-alt)]">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-4 text-center">TherapyKin Works For You</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center">Stride Works For You</h2>
         <p className="text-center max-w-2xl mx-auto mb-12 text-foreground/70">
           Adaptable support that fits your life, schedule, and needs
         </p>
