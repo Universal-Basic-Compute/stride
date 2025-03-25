@@ -11,22 +11,22 @@ export default function Partnerships() {
       <main className="flex-grow pt-24 pb-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">Join the TherapyKin Network</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">Join the Stride Network</h1>
             <p className="text-foreground/70 max-w-3xl mx-auto">
-              We're actively seeking mental health professionals, industry experts, and strategic partners to help us expand our mission of making quality mental health support accessible to everyone.
+              We're actively seeking professional coaches, industry experts, and strategic partners to help us expand our mission of making quality coaching support accessible to everyone.
             </p>
           </div>
           
-          {/* Mental Health Professionals Section */}
+          {/* Professional Coaches Section */}
           <section className="mb-20">
-            <h2 className="text-2xl font-bold mb-8 text-center">For Mental Health Professionals</h2>
+            <h2 className="text-2xl font-bold mb-8 text-center">For Professional Coaches</h2>
             
             <div className="card p-8 shadow-depth mb-12">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Join Our Expert Panel</h3>
                   <p className="text-foreground/70 mb-6">
-                    We're actively recruiting licensed therapists, counselors, and mental health specialists to join our expert panel. As a panel member, you'll help shape TherapyKin's therapeutic approaches, provide clinical oversight, and ensure our AI companion delivers evidence-based support.
+                    We're actively recruiting experienced coaches, leadership trainers, and professional development specialists to join our expert panel. As a panel member, you'll help shape Stride's coaching approaches, provide professional oversight, and ensure our AI companion delivers evidence-based support.
                   </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -39,7 +39,7 @@ export default function Partnerships() {
                       <svg className="h-5 w-5 text-[var(--primary)] mr-3 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
-                      <span><strong>Shape the Future of Digital Mental Health</strong> - Influence how AI can ethically support therapeutic work</span>
+                      <span><strong>Shape the Future of Digital Coaching</strong> - Influence how AI can ethically support coaching work</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="h-5 w-5 text-[var(--primary)] mr-3 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -56,22 +56,22 @@ export default function Partnerships() {
                       <li className="flex items-start">
                         <div className="w-8 h-8 rounded-full bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] mr-3 mt-0.5">1</div>
                         <div>
-                          <p className="font-medium">Licensed Mental Health Professionals</p>
-                          <p className="text-sm text-foreground/70">Therapists, psychologists, counselors with active licenses</p>
+                          <p className="font-medium">Certified Professional Coaches</p>
+                          <p className="text-sm text-foreground/70">Executive coaches, career coaches, and leadership development specialists</p>
                         </div>
                       </li>
                       <li className="flex items-start">
                         <div className="w-8 h-8 rounded-full bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] mr-3 mt-0.5">2</div>
                         <div>
-                          <p className="font-medium">Specialists in Various Modalities</p>
-                          <p className="text-sm text-foreground/70">CBT, DBT, ACT, mindfulness, and other evidence-based approaches</p>
+                          <p className="font-medium">Specialists in Various Methodologies</p>
+                          <p className="text-sm text-foreground/70">GROW model, strengths-based coaching, solution-focused approaches</p>
                         </div>
                       </li>
                       <li className="flex items-start">
                         <div className="w-8 h-8 rounded-full bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] mr-3 mt-0.5">3</div>
                         <div>
                           <p className="font-medium">Interest in Technology</p>
-                          <p className="text-sm text-foreground/70">Passion for exploring how AI can ethically support mental health</p>
+                          <p className="text-sm text-foreground/70">Passion for exploring how AI can ethically support professional development</p>
                         </div>
                       </li>
                     </ul>
@@ -97,9 +97,9 @@ export default function Partnerships() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Healthcare Providers</h3>
+                <h3 className="text-xl font-semibold mb-3">Corporate Partners</h3>
                 <p className="text-foreground/70 mb-6">
-                  We partner with healthcare organizations, clinics, and private practices to provide TherapyKin as a complementary resource for patients between appointments.
+                  We partner with organizations, HR departments, and L&D teams to provide Stride as a complementary resource for employees' professional development.
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
@@ -112,17 +112,17 @@ export default function Partnerships() {
                     <svg className="h-5 w-5 text-[var(--primary)] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Integration with EHR systems</span>
+                    <span>Integration with existing L&D systems</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="h-5 w-5 text-[var(--primary)] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
-                    <span>Custom therapeutic approaches</span>
+                    <span>Custom coaching approaches</span>
                   </li>
                 </ul>
-                <Link href="/contact?subject=Healthcare Partnership" className="btn-secondary w-full text-center block">
-                  Explore Healthcare Partnerships
+                <Link href="/contact?subject=Corporate Partnership" className="btn-secondary w-full text-center block">
+                  Explore Corporate Partnerships
                 </Link>
               </div>
               
@@ -132,9 +132,9 @@ export default function Partnerships() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold mb-3">Employers & EAPs</h3>
+                <h3 className="text-xl font-semibold mb-3">Educational Institutions</h3>
                 <p className="text-foreground/70 mb-6">
-                  Partner with us to offer TherapyKin as part of your employee wellness program or EAP, providing accessible mental health support for your team.
+                  Partner with us to offer Stride as part of your student success program or professional development curriculum, providing accessible coaching support for your students and faculty.
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
@@ -156,8 +156,8 @@ export default function Partnerships() {
                     <span>Custom onboarding materials</span>
                   </li>
                 </ul>
-                <Link href="/contact?subject=Employer Partnership" className="btn-secondary w-full text-center block">
-                  Explore Employer Partnerships
+                <Link href="/contact?subject=Educational Partnership" className="btn-secondary w-full text-center block">
+                  Explore Educational Partnerships
                 </Link>
               </div>
               
@@ -169,7 +169,7 @@ export default function Partnerships() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Research Collaborations</h3>
                 <p className="text-foreground/70 mb-6">
-                  We collaborate with academic institutions and research organizations to advance the field of AI-assisted mental health support.
+                  We collaborate with academic institutions and research organizations to advance the field of AI-assisted professional development and coaching.
                 </p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
@@ -207,7 +207,7 @@ export default function Partnerships() {
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Integration & API Partners</h3>
                   <p className="text-foreground/70 mb-6">
-                    We're seeking technology partners who share our vision of making mental health support more accessible. Whether you're developing complementary tools or platforms that could benefit from TherapyKin integration, we'd love to explore collaboration opportunities.
+                    We're seeking technology partners who share our vision of making professional development support more accessible. Whether you're developing complementary tools or platforms that could benefit from Stride integration, we'd love to explore collaboration opportunities.
                   </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -237,15 +237,15 @@ export default function Partnerships() {
                       <li className="flex items-start">
                         <div className="w-8 h-8 rounded-full bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] mr-3 mt-0.5">1</div>
                         <div>
-                          <p className="font-medium">Health & Wellness Platforms</p>
-                          <p className="text-sm text-foreground/70">Apps and services focused on overall wellbeing</p>
+                          <p className="font-medium">Professional Development Platforms</p>
+                          <p className="text-sm text-foreground/70">Apps and services focused on career growth and skills development</p>
                         </div>
                       </li>
                       <li className="flex items-start">
                         <div className="w-8 h-8 rounded-full bg-[var(--primary)]/10 flex items-center justify-center text-[var(--primary)] mr-3 mt-0.5">2</div>
                         <div>
-                          <p className="font-medium">Telehealth Providers</p>
-                          <p className="text-sm text-foreground/70">Services connecting patients with healthcare professionals</p>
+                          <p className="font-medium">HR & Talent Management Systems</p>
+                          <p className="text-sm text-foreground/70">Platforms connecting employees with development resources</p>
                         </div>
                       </li>
                       <li className="flex items-start">
@@ -270,9 +270,9 @@ export default function Partnerships() {
           {/* CTA Section */}
           <section>
             <div className="card p-8 shadow-depth text-center">
-              <h2 className="text-2xl font-bold mb-4">Let's Build the Future of Mental Health Support Together</h2>
+              <h2 className="text-2xl font-bold mb-4">Let's Build the Future of Professional Development Together</h2>
               <p className="text-foreground/70 mb-8 max-w-2xl mx-auto">
-                Whether you're a mental health professional, healthcare organization, employer, or technology company, we'd love to explore how we can collaborate to make quality mental health support more accessible.
+                Whether you're a professional coach, corporate organization, educational institution, or technology company, we'd love to explore how we can collaborate to make quality coaching support more accessible.
               </p>
               <Link 
                 href="/contact?subject=Partnership Inquiry" 

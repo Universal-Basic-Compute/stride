@@ -25,8 +25,8 @@ export default function Contact() {
               </div>
               <h3 className="text-lg font-semibold mb-2">Email</h3>
               <p className="text-foreground/70">
-                <a href="mailto:contact@therapykin.ai" className="text-[var(--primary)] hover:underline">
-                  contact@therapykin.ai
+                <a href="mailto:contact@stridecoaching.ai" className="text-[var(--primary)] hover:underline">
+                  contact@stridecoaching.ai
                 </a>
               </p>
             </div>
@@ -90,10 +90,10 @@ export default function Contact() {
           <div className="mt-12 text-center">
             <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
             <p className="text-foreground/70 mb-6">
-              Follow us on social media for updates, mental health tips, and more.
+              Follow us on social media for updates, professional development tips, and more.
             </p>
             <div className="flex justify-center space-x-6">
-              <a href="https://t.me/Therapykin" className="text-foreground/60 hover:text-[var(--primary)]" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/StrideCoaching" className="text-foreground/60 hover:text-[var(--primary)]" target="_blank" rel="noopener noreferrer">
                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.562 8.161c-.18.835-.546 2.968-.772 3.939-.31 1.334-.618 2.11-.927 2.11-.309 0-.618-.776-.927-2.11-.226-.97-.593-3.104-.772-3.939-.18-.835.129-1.543.927-1.543.798 0 1.107.708.927 1.543zm-5.562 9.122c-1.308 0-2.189-.869-2.189-2.061 0-1.191.881-2.061 2.189-2.061 1.308 0 2.189.87 2.189 2.061 0 1.192-.881 2.061-2.189 2.061zm0-5.816c-3.062 0-5.562-2.499-5.562-5.561 0-3.063 2.5-5.562 5.562-5.562 3.062 0 5.562 2.499 5.562 5.562 0 3.062-2.5 5.561-5.562 5.561z" />
                 </svg>
