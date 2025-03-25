@@ -5,7 +5,7 @@ export const post = {
   date: "2025-04-10",
   author: "Stride Team",
   category: "Leadership Development",
-  imageUrl: "/blog/coaching-gap.jpg",
+  imageUrl: "/blog/coaching-gap-traditional-executive-coaching.jpg",
   slug: "coaching-gap-traditional-executive-coaching",
   persona: "busy-professional",
   sources: [
