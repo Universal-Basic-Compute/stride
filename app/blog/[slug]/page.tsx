@@ -185,7 +185,11 @@ export default function BlogPost() {
             <ShareButtons 
               title={post.title} 
               url={currentUrl} 
-              sources={post.sources}
+              sources={post.sources ? post.sources.map((source, index) => ({
+                id: index,
+                text: 'name' in source ? source.name : source.text,
+                url: source.url
+              })) : undefined}
             />
           </div>
           
