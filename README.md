@@ -1,16 +1,16 @@
-# TherapyKin
+# Stride
 
-TherapyKin is an AI-powered therapeutic companion that builds a genuine relationship with users over time. Unlike traditional therapy apps that reset with each session, TherapyKin remembers user history, learns preferences, and evolves alongside them.
+Stride is an AI-powered executive coaching platform that builds a genuine relationship with professionals over time. Unlike traditional coaching apps that reset with each session, Stride remembers user history, learns preferences, and evolves alongside them.
 
 ## Overview
 
-TherapyKin offers:
+Stride offers:
 
-- **Personalized Support**: Custom coping techniques based on specific needs
+- **Personalized Coaching**: Custom strategies based on your specific professional needs
 - **Continuous Memory**: Conversations build on previous interactions
-- **Evidence-Based Approaches**: Access to CBT, DBT, ACT, and mindfulness practices
+- **Evidence-Based Approaches**: Access to proven coaching frameworks and leadership development techniques
 - **Flexible Communication**: Text or voice interactions that can be switched seamlessly
-- **24/7 Availability**: Support exactly when needed, whether scheduled or during unexpected difficulties
+- **24/7 Availability**: Support exactly when needed, whether scheduled or during unexpected challenges
 - **Privacy-First Design**: End-to-end encryption and comprehensive privacy controls
 
 ## Getting Started
@@ -24,8 +24,8 @@ TherapyKin offers:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/therapykin.git
-   cd therapykin
+   git clone https://github.com/yourusername/stride.git
+   cd stride
    ```
 
 2. Install dependencies:
@@ -47,7 +47,7 @@ TherapyKin offers:
 ## Project Structure
 
 ```
-therapykin/
+stride/
 ├── app/                  # Next.js app directory
 │   ├── components/       # Reusable UI components
 │   ├── privacy/          # Privacy policy page
@@ -71,7 +71,7 @@ therapykin/
 - **FeatureHighlights**: Showcases key product features
 - **UserStories**: Real user testimonials
 - **CommunicationFlexibility**: Explains text/voice interaction options
-- **TherapyComparison**: Compares TherapyKin with traditional therapy
+- **CoachingComparison**: Compares Stride with traditional coaching
 - **PricingTiers**: Displays available subscription plans
 - **PrivacySection**: Highlights privacy features
 - **GettingStarted**: Explains the onboarding process
@@ -136,4 +136,4 @@ Requirements:
 
 ## Contact
 
-For questions or support, please contact: support@therapykin.ai
+For questions or support, please contact: support@stridecoaching.ai
