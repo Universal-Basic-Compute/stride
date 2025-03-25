@@ -119,7 +119,7 @@ export default function Header() {
                         href="/specialists/women" 
                         className="block px-4 py-2 text-sm text-foreground/70 hover:bg-[var(--primary)]/10 hover:text-[var(--primary)]"
                       >
-                        Women's Coach
+                        Empowered Woman
                       </Link>
                     </div>
                   </div>
@@ -335,7 +335,7 @@ export default function Header() {
                 className="text-foreground/70 hover:text-[var(--primary)] block px-3 py-2 text-base font-medium"
                 onClick={() => setMobileMenuOpen(false)}
               >
-                Women's Coach
+                Empowered Woman
               </Link>
               
               <p className="px-3 py-1 text-xs uppercase text-foreground/40 font-semibold mt-2">Resources</p>
