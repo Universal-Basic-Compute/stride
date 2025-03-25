@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TherapyKin | A Companion That Remembers, Adapts, and Grows With You",
-  description: "TherapyKin is more than an AI—it's a therapeutic companion that builds a genuine relationship with you over time.",
+  title: "Stride | Your AI Coaching Partner",
+  description: "Personalized guidance that evolves with you, available whenever you need it.",
   icons: {
     icon: '/favicon.ico',
     apple: '/apple-touch-icon.png',

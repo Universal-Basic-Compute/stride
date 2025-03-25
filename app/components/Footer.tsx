@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="font-bold text-lg mb-4">Stride</h3>
-            <p className="text-foreground/70 mb-4">AI-Powered Coaching That Helps You Achieve Your Goals</p>
+            <p className="text-foreground/70 mb-4">Your AI Coaching Partner</p>
             <div className="flex space-x-4">
               <a href="https://t.me/StrideCoaching" className="text-foreground/60 hover:text-[var(--primary)]" target="_blank" rel="noopener noreferrer">
                 <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">

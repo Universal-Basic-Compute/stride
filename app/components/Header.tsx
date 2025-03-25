@@ -65,7 +65,7 @@ export default function Header() {
                 height={32} 
                 className="mr-2" 
               />
-              <span className="text-xl font-bold bg-gradient-to-br from-[#5ee7df] via-[#8ced7d] via-[#d8cc59] via-[#f59c87] via-[#c278f5] to-[#6a7af5] text-transparent bg-clip-text">TherapyKin</span>
+              <span className="text-xl font-bold bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] text-transparent bg-clip-text">Stride</span>
             </Link>
             <div className="hidden md:ml-10 md:flex md:space-x-6">
               {/* Main navigation items */}
