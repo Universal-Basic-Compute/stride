@@ -15,7 +15,8 @@ const categories = [
   { id: "relationships", name: "Relationships" },
   { id: "self-care", name: "Self-Care" },
   { id: "trauma", name: "Trauma" },
-  { id: "workplace", name: "Workplace Mental Health" }
+  { id: "workplace", name: "Workplace Mental Health" },
+  { id: "leadership", name: "Leadership" }
 ];
 
 // Resource types
@@ -63,6 +64,17 @@ const resources: Resource[] = [
     imageUrl: "/resources/crypto-trading-psychology.jpg",
     url: "/resources/crypto-trading-psychology",
     new: true
+  },
+  {
+    id: 14,
+    title: "The Executive Presence Blueprint: Communication Strategies for Leadership Impact",
+    description: "Master the art of executive presence with research-backed techniques to command attention, communicate with clarity, and project confidence in any professional setting.",
+    category: "leadership",
+    type: "guide",
+    imageUrl: "/resources/executive-presence-blueprint.jpg",
+    url: "/resources/executive-presence-blueprint",
+    new: true,
+    featured: true
   },
   {
     id: 2,
