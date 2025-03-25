@@ -24,7 +24,7 @@ export default function Login() {
       
       <main className="flex-grow pt-24 pb-16 px-4">
         <div className="max-w-md mx-auto">
-          <h1 className="text-3xl font-bold mb-8 text-center">Log In to TherapyKin</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center">Log In to Stride</h1>
           
           {error && (
             <div className="bg-purple-100 border border-purple-400 text-purple-700 px-4 py-3 rounded mb-4">
