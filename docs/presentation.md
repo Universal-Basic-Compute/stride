@@ -98,7 +98,7 @@ Stride is an AI-powered coaching platform that helps individuals achieve their p
 
 ## Getting Started
 
-1. Create your account at stride-ai.com
+1. Create your account at stridecoaching.ai
 2. Complete your personal assessment
 3. Set your first goal
 4. Begin your coaching journey
@@ -107,8 +107,8 @@ Stride is an AI-powered coaching platform that helps individuals achieve their p
 
 ## Contact Information
 
-Email: info@stride-ai.com
+Email: info@stridecoaching.ai
 Phone: (555) 123-4567
-Website: www.stride-ai.com
+Website: www.stridecoaching.ai
 
 Follow us: @stride_ai

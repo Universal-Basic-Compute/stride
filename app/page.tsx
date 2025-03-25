@@ -176,7 +176,7 @@ export default function Home() {
               Learn More
             </Link>
           </div>
-          <p className="mt-10 font-medium">Questions? Contact us at <a href="mailto:info@stride-ai.com" className="underline hover:text-white/80">info@stride-ai.com</a></p>
+          <p className="mt-10 font-medium">Questions? Contact us at <a href="mailto:info@stridecoaching.ai" className="underline hover:text-white/80">info@stridecoaching.ai</a></p>
           <p className="mt-4 text-xs max-w-2xl mx-auto font-medium">Stride is designed to complement your personal development journey. For professional advice, please consult with qualified specialists in your field of interest.</p>
         </div>
         
