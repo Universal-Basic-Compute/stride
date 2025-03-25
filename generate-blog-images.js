@@ -121,10 +121,11 @@ The prompt should be detailed and descriptive, focusing on creating a profession
 that would work well for a mental health/therapy blog.
 
 Important style requirements:
-- Use a soothing pencil style illustration
-- Incorporate the site's color palette: white, teal, light green, purple, violet, yellow, and orange
-- Keep the style clean, modern, and therapeutic
-- Ensure the image feels calming and supportive
+- Use duotone photography with dark green (#1D4E4E) and amber (#E67E22) color treatment
+- Real-world professional imagery (not illustrations)
+- Keep the style clean, modern, and professional
+- Ensure the image feels sophisticated and business-appropriate
+- Use high-quality photographic imagery with the duotone effect applied
 
 Do not include any explanations or additional text.`;
 
@@ -158,7 +159,7 @@ Do not include any explanations or additional text.`;
   } catch (error) {
     console.error('Error generating prompt with Claude API:', error.message);
     // Fallback to a generic prompt based on the title
-    return `Professional editorial image for a mental health article about ${title}, 3:2 aspect ratio, soothing pencil style illustration, color palette of white, teal, light green, purple, violet, yellow, and orange, clean modern therapeutic atmosphere`;
+    return `Professional editorial image for a business coaching article about ${title}, 3:2 aspect ratio, duotone photography with dark green (#1D4E4E) and amber (#E67E22) color treatment, high-quality photographic imagery, clean modern professional atmosphere, sophisticated business-appropriate style`;
   }
 };
 
