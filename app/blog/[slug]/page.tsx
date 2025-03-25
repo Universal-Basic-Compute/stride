@@ -51,7 +51,7 @@ export default function BlogPost() {
       <Head>
         <title>{post.title} | TherapyKin Blog</title>
         <meta name="description" content={post.excerpt} />
-        <meta name="keywords" content={`${post.category}, mental health, therapy, ${post.persona}, TherapyKin`} />
+        <meta name="keywords" content={`${post.category}, executive coaching, professional development, leadership, Stride`} />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
@@ -168,12 +168,12 @@ export default function BlogPost() {
           <div className="card p-6 mb-12">
             <div className="flex items-center">
               <div className="w-16 h-16 rounded-full bg-[var(--primary)]/10 flex items-center justify-center mr-4">
-                <span className="text-[var(--primary)] font-bold">TK</span>
+                <span className="text-[var(--primary)] font-bold">S</span>
               </div>
               <div>
-                <h3 className="font-semibold text-lg">TherapyKin Team</h3>
+                <h3 className="font-semibold text-lg">Stride Team</h3>
                 <p className="text-foreground/70">
-                  Our articles are written by a team of mental health professionals and experts dedicated to making therapeutic insights accessible to everyone.
+                  Our articles are written by a team of executive coaches and leadership experts dedicated to helping professionals reach their full potential.
                 </p>
               </div>
             </div>
@@ -198,7 +198,7 @@ export default function BlogPost() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {blogPosts
                 .filter(relatedPost => 
-                  relatedPost.persona === post.persona && relatedPost.id !== post.id
+                  relatedPost.category === post.category && relatedPost.id !== post.id
                 )
                 .slice(0, 2)
                 .map(relatedPost => (
@@ -234,9 +234,9 @@ export default function BlogPost() {
           
           {/* CTA */}
           <div className="card p-8 shadow-depth text-center">
-            <h2 className="text-2xl font-bold mb-4">Experience TherapyKin Yourself</h2>
+            <h2 className="text-2xl font-bold mb-4">Experience Stride Coaching</h2>
             <p className="text-foreground/70 mb-8 max-w-2xl mx-auto">
-              Ready to try a new approach to mental wellbeing? Start your journey with TherapyKin today.
+              Ready to accelerate your professional growth? Start your coaching journey with Stride today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 

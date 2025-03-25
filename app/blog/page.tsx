@@ -12,7 +12,7 @@ export default function Blog() {
   // Filter posts based on active filter
   const filteredPosts = activeFilter === "all" 
     ? blogPosts 
-    : blogPosts.filter(post => post.persona === activeFilter);
+    : blogPosts.filter(post => post.category === activeFilter);
   
   // Get featured post (first post after filtering)
   const featuredPost = filteredPosts[0];
@@ -24,13 +24,13 @@ export default function Blog() {
       <main className="flex-grow pt-24 pb-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">TherapyKin Blog</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">Stride Insights</h1>
             <p className="text-foreground/70 max-w-3xl mx-auto">
-              Insights, research, and practical advice to support your mental health journey
+              Expert guidance, research, and practical advice to accelerate your professional growth
             </p>
           </div>
           
-          {/* Persona Filter */}
+          {/* Category Filter */}
           <div className="mb-12 flex flex-wrap gap-2 justify-center">
             <button 
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
@@ -44,43 +44,83 @@ export default function Blog() {
             </button>
             <button 
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                activeFilter === "busy-professional" 
+                activeFilter === "leadership-development" 
                   ? "bg-[var(--primary)] text-white" 
                   : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
               }`}
-              onClick={() => setActiveFilter("busy-professional")}
+              onClick={() => setActiveFilter("leadership-development")}
             >
-              For Busy Professionals
+              Leadership Development
             </button>
             <button 
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                activeFilter === "rural-resident" 
+                activeFilter === "professional-growth" 
                   ? "bg-[var(--primary)] text-white" 
                   : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
               }`}
-              onClick={() => setActiveFilter("rural-resident")}
+              onClick={() => setActiveFilter("professional-growth")}
             >
-              For Rural Residents
+              Professional Growth
             </button>
             <button 
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                activeFilter === "supplemental-seeker" 
+                activeFilter === "team-management" 
                   ? "bg-[var(--primary)] text-white" 
                   : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
               }`}
-              onClick={() => setActiveFilter("supplemental-seeker")}
+              onClick={() => setActiveFilter("team-management")}
             >
-              Supplemental Support
+              Team Management
             </button>
             <button 
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                activeFilter === "athletes" 
+                activeFilter === "strategic-planning" 
                   ? "bg-[var(--primary)] text-white" 
                   : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
               }`}
-              onClick={() => setActiveFilter("athletes")}
+              onClick={() => setActiveFilter("strategic-planning")}
             >
-              For Athletes
+              Strategic Planning
+            </button>
+            <button 
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                activeFilter === "productivity-performance" 
+                  ? "bg-[var(--primary)] text-white" 
+                  : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
+              }`}
+              onClick={() => setActiveFilter("productivity-performance")}
+            >
+              Productivity & Performance
+            </button>
+            <button 
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                activeFilter === "work-life-integration" 
+                  ? "bg-[var(--primary)] text-white" 
+                  : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
+              }`}
+              onClick={() => setActiveFilter("work-life-integration")}
+            >
+              Work-Life Integration
+            </button>
+            <button 
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                activeFilter === "communication-influence" 
+                  ? "bg-[var(--primary)] text-white" 
+                  : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
+              }`}
+              onClick={() => setActiveFilter("communication-influence")}
+            >
+              Communication & Influence
+            </button>
+            <button 
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                activeFilter === "business-growth" 
+                  ? "bg-[var(--primary)] text-white" 
+                  : "bg-[var(--background-alt)] hover:bg-[var(--primary)]/10"
+              }`}
+              onClick={() => setActiveFilter("business-growth")}
+            >
+              Business Growth
             </button>
           </div>
           
@@ -173,9 +213,9 @@ export default function Blog() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Mental Health Library</h3>
+                <h3 className="text-xl font-semibold mb-2">Leadership Resource Library</h3>
                 <p className="text-foreground/70 mb-4">
-                  Access our comprehensive collection of guides, worksheets, videos, and other resources on various mental health topics.
+                  Access our comprehensive collection of guides, frameworks, case studies, and tools for executive and leadership development.
                 </p>
                 <Link href="/resources/library" className="text-[var(--primary)] font-medium hover:underline">
                   Browse Library →
@@ -188,9 +228,9 @@ export default function Blog() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Video Tutorials</h3>
+                <h3 className="text-xl font-semibold mb-2">Video Masterclasses</h3>
                 <p className="text-foreground/70 mb-4">
-                  Watch guided tutorials on therapeutic techniques, mindfulness exercises, and stress management.
+                  Watch expert-led sessions on strategic thinking, team leadership, effective communication, and performance optimization.
                 </p>
                 <div className="inline-block px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm font-medium">
                   Coming Soon
@@ -203,9 +243,9 @@ export default function Blog() {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                   </svg>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Upcoming Webinars</h3>
+                <h3 className="text-xl font-semibold mb-2">Executive Roundtables</h3>
                 <p className="text-foreground/70 mb-4">
-                  Join our live webinars featuring mental health experts discussing various topics and answering questions.
+                  Join our live discussions featuring leadership experts and successful executives sharing insights and answering questions.
                 </p>
                 <div className="inline-block px-3 py-1 bg-amber-100 text-amber-800 rounded-full text-sm font-medium">
                   Coming Soon
@@ -216,9 +256,9 @@ export default function Blog() {
           
           {/* CTA */}
           <div className="card p-8 shadow-depth text-center">
-            <h2 className="text-2xl font-bold mb-4">Ready to Experience TherapyKin?</h2>
+            <h2 className="text-2xl font-bold mb-4">Ready to Experience Stride Coaching?</h2>
             <p className="text-foreground/70 mb-8 max-w-2xl mx-auto">
-              Start your journey with TherapyKin today and discover how our personalized approach can support your mental wellbeing.
+              Start your journey with Stride today and discover how our AI executive coaching can accelerate your professional growth.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 

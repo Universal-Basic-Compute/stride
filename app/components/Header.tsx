@@ -60,7 +60,7 @@ export default function Header() {
             <Link href="/" className="flex-shrink-0 flex items-center">
               <Image 
                 src="/android-chrome-192x192.png" 
-                alt="TherapyKin Logo" 
+                alt="Stride Logo" 
                 width={32} 
                 height={32} 
                 className="mr-2" 
