@@ -216,7 +216,7 @@ function ChatSessionWithSearchParams() {
             
             // Check URL parameter first, then fall back to user preference
             const specialistParam = searchParams.get('specialist');
-            if (specialistParam && (specialistParam === 'generalist' || specialistParam === 'crypto' || specialistParam === 'athletes' || specialistParam === 'executives')) {
+            if (specialistParam && (specialistParam === 'generalist' || specialistParam === 'executive' || specialistParam === 'entrepreneur' || specialistParam === 'women')) {
               setSelectedSpecialist(specialistParam);
               console.log(`Using specialist from URL parameter: ${specialistParam}`);
     
@@ -1605,44 +1605,44 @@ function ChatSessionWithSearchParams() {
                     Generalist
                   </button>
                   <button
-                    onClick={() => updateSelectedSpecialist("crypto")}
+                    onClick={() => updateSelectedSpecialist("executive")}
                     className={`p-2 rounded-lg border text-sm ${
-                      selectedSpecialist === "crypto" 
+                      selectedSpecialist === "executive" 
                         ? 'bg-[var(--primary)]/10 border-[var(--primary)] text-[var(--primary)]' 
                         : 'border-black/10 dark:border-white/10 hover:bg-[var(--background-alt)]'
                     }`}
                   >
-                    Crypto
+                    Executive
                   </button>
                   <button
-                    onClick={() => updateSelectedSpecialist("athletes")}
+                    onClick={() => updateSelectedSpecialist("entrepreneur")}
                     className={`p-2 rounded-lg border text-sm ${
-                      selectedSpecialist === "athletes" 
+                      selectedSpecialist === "entrepreneur" 
                         ? 'bg-[var(--primary)]/10 border-[var(--primary)] text-[var(--primary)]' 
                         : 'border-black/10 dark:border-white/10 hover:bg-[var(--background-alt)]'
                     }`}
                   >
-                    Athletes
+                    Entrepreneur
                   </button>
                   <button
-                    onClick={() => updateSelectedSpecialist("executives")}
+                    onClick={() => updateSelectedSpecialist("women")}
                     className={`p-2 rounded-lg border text-sm ${
-                      selectedSpecialist === "executives" 
+                      selectedSpecialist === "women" 
                         ? 'bg-[var(--primary)]/10 border-[var(--primary)] text-[var(--primary)]' 
                         : 'border-black/10 dark:border-white/10 hover:bg-[var(--background-alt)]'
                     }`}
                   >
-                    Executives
+                    Women's Leadership
                   </button>
                 </div>
                 <p className="text-xs text-foreground/60 mt-2">
                   {selectedSpecialist === "generalist" 
-                    ? "General therapeutic support for various concerns" 
-                    : selectedSpecialist === "crypto"
-                    ? "Specialized support for crypto traders and investors"
-                    : selectedSpecialist === "athletes"
-                    ? "Mental performance support for athletes and competitors"
-                    : "Leadership and executive performance support"}
+                    ? "General coaching support for various professional goals" 
+                    : selectedSpecialist === "executive"
+                    ? "Specialized coaching for executives and senior leaders"
+                    : selectedSpecialist === "entrepreneur"
+                    ? "Coaching focused on entrepreneurs and business owners"
+                    : "Leadership coaching for women in professional environments"}
                 </p>
               </div>
               
