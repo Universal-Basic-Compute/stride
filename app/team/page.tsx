@@ -207,13 +207,13 @@ export default function Team() {
             </div>
           </div>
 
-          {/* Advisors */}
-          <div className="mb-20">
+          {/* Advisors section commented out */}
+          {/* <div className="mb-20">
             <h2 className="text-2xl font-bold mb-8 text-center">Our Advisors</h2>
   
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               {/* Bassel Tabet */}
-              <div className="card p-8 shadow-depth">
+              {/* <div className="card p-8 shadow-depth">
                 <div className="flex flex-col items-center mb-6">
                   <div className="w-32 h-32 rounded-full bg-gradient-to-br from-[var(--primary)]/30 to-[var(--accent)]/30 flex items-center justify-center mb-4 overflow-hidden">
                     <span className="text-3xl font-bold text-[var(--primary)]">BT</span>
@@ -301,9 +301,9 @@ export default function Team() {
                     </p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
+              </div> */}
+            {/* </div>
+          </div> */}
 
           {/* Our Approach */}
           <div className="mb-20">
