@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  /* Primary brand colors for Stride */
-  --primary: #3563E9; /* Blue as primary color */
-  --primary-light: #6B8EFC; /* Lighter blue */
-  --primary-dark: #1E3A8A; /* Darker blue */
+  /* Primary brand colors for Stride - updated to match logo */
+  --primary: #1D4E4E; /* Dark teal from logo */
+  --primary-light: #3A8C8C; /* Lighter teal */
+  --primary-dark: #0F3333; /* Darker teal */
   
   /* Secondary accent colors */
-  --accent: #22C55E; /* Green for success/progress */
-  --accent-light: #4ADE80; /* Lighter green */
+  --accent: #E67E22; /* Orange from logo */
+  --accent-light: #F39C12; /* Lighter orange */
   
   /* Neutral backgrounds */
   --background: #f8fafc;
@@ -21,12 +21,12 @@
   --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.1);
   
   /* Additional colors for visual interest */
-  --highlight: #8b5cf6; /* Purple for highlights */
-  --highlight-light: #a78bfa;
-  --warm: #f97316; /* Orange for energy/motivation */
-  --warm-light: #fb923c;
-  --cool: #0EA5E9; /* Sky blue for calm/focus */
-  --cool-light: #38BDF8;
+  --highlight: #2ECC71; /* Green from logo */
+  --highlight-light: #7DCEA0;
+  --warm: #E67E22; /* Orange from logo */
+  --warm-light: #F5B041;
+  --cool: #1D4E4E; /* Teal from logo */
+  --cool-light: #3A8C8C;
   
   /* Legacy variables for compatibility */
   --primary-foreground: #ffffff;
@@ -34,11 +34,11 @@
   --secondary-foreground: #1e293b;
   
   /* RGB variables for glow effects */
-  --primary-rgb: 53, 99, 233; /* Blue */
-  --primary-light-rgb: 107, 142, 252; /* Lighter blue */
-  --accent-rgb: 34, 197, 94; /* Green */
-  --accent-light-rgb: 74, 222, 128; /* Lighter green */
-  --primary-dark-rgb: 30, 58, 138; /* Dark blue */
+  --primary-rgb: 29, 78, 78; /* Teal */
+  --primary-light-rgb: 58, 140, 140; /* Lighter teal */
+  --accent-rgb: 230, 126, 34; /* Orange */
+  --accent-light-rgb: 243, 156, 18; /* Lighter orange */
+  --primary-dark-rgb: 15, 51, 51; /* Dark teal */
 }
 
 @theme inline {
@@ -54,41 +54,41 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    /* Update dark mode colors to match Stride brand */
-    --primary: #4F74FF; /* Brighter blue */
-    --primary-light: #7B96FF; /* Lighter blue */
-    --primary-dark: #2E4BAE; /* Darker blue */
+    /* Update dark mode colors to match Stride logo */
+    --primary: #3A8C8C; /* Brighter teal */
+    --primary-light: #5DAEAE; /* Lighter teal */
+    --primary-dark: #1D4E4E; /* Darker teal */
     
-    --accent: #22C55E; /* Keep green */
-    --accent-light: #4ADE80; /* Lighter green */
+    --accent: #F39C12; /* Brighter orange */
+    --accent-light: #F5B041; /* Lighter orange */
     
-    /* Darker backgrounds with blue theme */
-    --background: #0F172A; /* Dark blue background */
-    --background-alt: #1E293B; /* Slightly lighter dark blue */
+    /* Darker backgrounds with teal theme */
+    --background: #0F2323; /* Dark teal background */
+    --background-alt: #1D3B3B; /* Slightly lighter dark teal */
     --foreground: #f1f5f9;
     
     --border: rgba(255, 255, 255, 0.1);
-    --card-bg: #1E293B; /* Match background-alt */
+    --card-bg: #1D3B3B; /* Match background-alt */
     --card-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.3);
     
     /* Additional colors for visual interest */
-    --highlight: #a78bfa;
-    --highlight-light: #c4b5fd;
-    --warm: #fb923c;
-    --warm-light: #fdba74;
-    --cool: #38BDF8;
-    --cool-light: #7DD3FC;
+    --highlight: #2ECC71; /* Green */
+    --highlight-light: #7DCEA0;
+    --warm: #F39C12; /* Orange */
+    --warm-light: #F5B041;
+    --cool: #3A8C8C; /* Teal */
+    --cool-light: #5DAEAE;
     
     /* Legacy variables for compatibility */
     --primary-foreground: #ffffff;
-    --secondary: #1E293B;
+    --secondary: #1D3B3B;
     --secondary-foreground: #f1f5f9;
     
     /* RGB variables for dark mode */
-    --primary-rgb: 79, 116, 255; /* Brighter blue for dark mode */
-    --primary-light-rgb: 123, 150, 255; /* Lighter blue for dark mode */
-    --accent-rgb: 34, 197, 94; /* Keep green */
-    --accent-light-rgb: 74, 222, 128; /* Lighter green */
+    --primary-rgb: 58, 140, 140; /* Brighter teal for dark mode */
+    --primary-light-rgb: 93, 174, 174; /* Lighter teal for dark mode */
+    --accent-rgb: 243, 156, 18; /* Brighter orange */
+    --accent-light-rgb: 245, 176, 65; /* Lighter orange */
   }
   
   .card-hover-glow:hover {
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 100%;
 }
 
-/* Gradient backgrounds with logo colors */
+/* Update gradient backgrounds with logo colors */
 .gradient-primary {
   background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
   color: white;
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gradient-bg {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--highlight) 100%);
   color: white;
 }
 

@@ -563,7 +563,7 @@ export default function Home() {
 
 
       {/* Final CTA Section */}
-      <section className="py-24 px-4 bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] texture-overlay animated-bg relative text-white">
+      <section className="py-24 px-4 bg-gradient-to-br from-[#1D4E4E] via-[#3A8C8C] to-[#2ECC71] texture-overlay animated-bg relative text-white">
         <div className="max-w-3xl mx-auto text-center relative z-10">
           <h2 className="text-4xl font-bold mb-6 drop-shadow-md">Start Your Coaching Journey Today</h2>
           <p className="text-xl mb-10 font-medium drop-shadow-sm">Join thousands of professionals making consistent progress toward their goals.</p>
