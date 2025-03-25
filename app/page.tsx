@@ -20,7 +20,7 @@ export default function Home() {
       {/* Hero Section with improved background */}
       <header className="flex flex-col items-center justify-center text-center py-24 px-4 relative overflow-hidden">
         {/* Modern gradient background with animated elements */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] z-0">
+        <div className="absolute inset-0 bg-gradient-to-br from-[#1D4E4E] via-[#3A8C8C] to-[#2ECC71] z-0">
           {/* Abstract geometric shapes for visual interest */}
           <div className="absolute top-0 right-0 w-full h-full overflow-hidden opacity-10">
             <div className="absolute top-[10%] right-[5%] w-64 h-64 rounded-full bg-white"></div>
