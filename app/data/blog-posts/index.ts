@@ -1,6 +1,11 @@
-// Empty array for blog posts
+// Import blog posts
+import { post as mentalAgilityPost } from './mental-agility-top-performers';
+import { post as coachingGapPost } from './coaching-gap-traditional-executive-coaching';
+
+// Array of blog posts
 export const blogPosts = [
-  // Empty array since we don't have the actual blog post files
+  mentalAgilityPost,
+  coachingGapPost
 ];
 
 // Helper function to get a post by slug
