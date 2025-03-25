@@ -1,8 +1,10 @@
 // Import blog posts
 import { post as coachingGapPost } from './coaching-gap-traditional-executive-coaching';
+import { post as careerAccelerationPost } from './career-acceleration-ai-coaching-compound-growth';
 
 // Array of blog posts
 export const blogPosts = [
+  careerAccelerationPost,
   coachingGapPost
 ];
 
