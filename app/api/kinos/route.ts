@@ -1,5 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const config = {
+  maxDuration: 60 // 60 seconds
+};
+
 export async function POST(request: NextRequest) {
   try {
     const { content, firstName, lastName, attachments = [], images = [], mode = null, specialist = null } = await request.json();
@@ -65,6 +69,9 @@ export async function POST(request: NextRequest) {
     }
     
     // Forward the request to the appropriate API with the additional parameters
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+    
     const response = await fetch(baseUrl, {
       method: 'POST',
       headers: {
@@ -72,7 +79,10 @@ export async function POST(request: NextRequest) {
         // Add any required API keys or authentication headers here
       },
       body: JSON.stringify(requestBody),
+      signal: controller.signal
     });
+    
+    clearTimeout(timeoutId); // Clear the timeout if the request completes
 
     // Check if the response is OK
     if (!response.ok) {

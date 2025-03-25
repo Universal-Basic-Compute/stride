@@ -1,5 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const config = {
+  maxDuration: 60 // 60 seconds
+};
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
@@ -60,13 +64,19 @@ export async function GET(request: NextRequest) {
     }
     
     // Call the KinOS API to get messages
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+    
     const response = await fetch(baseUrl, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
         // Add any required API keys or authentication headers here
       },
+      signal: controller.signal
     });
+    
+    clearTimeout(timeoutId); // Clear the timeout if the request completes
     
     if (!response.ok) {
       const errorText = await response.text();

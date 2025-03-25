@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "app/api/kinos/route.ts": {
+      "maxDuration": 60
+    },
+    "app/api/kinos/messages/route.ts": {
+      "maxDuration": 60
+    }
+  }
+}

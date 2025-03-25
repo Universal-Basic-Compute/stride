@@ -21,7 +21,14 @@ export async function fetchMessagesFromKinOS(
     }
     
     // Call our API endpoint
-    const response = await fetch(url);
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+    
+    const response = await fetch(url, {
+      signal: controller.signal
+    });
+    
+    clearTimeout(timeoutId); // Clear the timeout if the request completes
     
     if (!response.ok) {
       const errorData = await response.json();
@@ -71,13 +78,19 @@ export async function sendMessageToKinOS(
     }
     
     // Always use our API route - environment handling happens server-side
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+    
     const response = await fetch('/api/kinos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(requestBody),
+      signal: controller.signal
     });
+    
+    clearTimeout(timeoutId); // Clear the timeout if the request completes
 
     if (!response.ok) {
       const errorText = await response.text();
@@ -144,7 +157,14 @@ async function pollForResponse(
       await new Promise(resolve => setTimeout(resolve, delayMs));
       
       // Try to fetch the response using our API route
-      const response = await fetch(`${statusEndpoint}?messageId=${messageId}&firstName=${firstName}&lastName=${lastName}&specialist=${specialist}`);
+      const controller = new AbortController();
+      const statusTimeoutId = setTimeout(() => controller.abort(), 60000); // 60 second timeout
+      
+      const response = await fetch(`${statusEndpoint}?messageId=${messageId}&firstName=${firstName}&lastName=${lastName}&specialist=${specialist}`, {
+        signal: controller.signal
+      });
+      
+      clearTimeout(statusTimeoutId); // Clear the timeout if the request completes
       
       if (!response.ok) {
         console.log(`Polling attempt ${attempt} failed with status ${response.status}`);
