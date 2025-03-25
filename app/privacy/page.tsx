@@ -12,29 +12,30 @@ export default function PrivacyPolicy() {
           <h1 className="text-3xl md:text-4xl font-bold mb-8">Privacy Policy</h1>
           
           <div className="prose prose-lg max-w-none">
-            <p className="text-lg mb-6">Last Updated: June 1, 2023</p>
+            <p className="text-lg mb-6">Last Updated: March 15, 2024</p>
             
             <p className="mb-6">
-              At TherapyKin, we take your privacy extremely seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.
+              At Stride, we take your privacy extremely seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our service.
             </p>
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Information We Collect</h2>
             
             <h3 className="text-xl font-semibold mt-8 mb-3">Personal Information</h3>
             <p className="mb-4">
-              We may collect personal information that you voluntarily provide when using TherapyKin, including but not limited to:
+              We may collect personal information that you voluntarily provide when using Stride, including but not limited to:
             </p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
               <li>Account information (email address, name, password)</li>
               <li>Profile information you choose to share</li>
-              <li>Content of conversations with TherapyKin</li>
+              <li>Content of conversations with Stride</li>
+              <li>Goals, progress metrics, and performance data</li>
               <li>Survey responses and feedback</li>
               <li>Payment information (processed securely through our payment processors)</li>
             </ul>
             
             <h3 className="text-xl font-semibold mt-8 mb-3">Usage Information</h3>
             <p className="mb-4">
-              We automatically collect certain information about your device and how you interact with TherapyKin, including:
+              We automatically collect certain information about your device and how you interact with Stride, including:
             </p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
               <li>Device information (type, operating system, browser)</li>
@@ -48,8 +49,8 @@ export default function PrivacyPolicy() {
               We use the information we collect to:
             </p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
-              <li>Provide, maintain, and improve TherapyKin</li>
-              <li>Personalize your experience and therapeutic support</li>
+              <li>Provide, maintain, and improve Stride</li>
+              <li>Personalize your experience and coaching support</li>
               <li>Process transactions and manage your account</li>
               <li>Send you service-related communications</li>
               <li>Monitor and analyze usage patterns to enhance our service</li>
@@ -58,10 +59,10 @@ export default function PrivacyPolicy() {
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Conversation Data & AI Training</h2>
             <p className="mb-6">
-              <strong>Your conversations are private and are not used to train our AI models.</strong> The content of your therapeutic conversations is stored securely and is only used to provide you with personalized support. We do not use your personal conversations to improve or train our AI systems.
+              <strong>Your coaching conversations are private and are not used to train our AI models.</strong> The content of your coaching conversations is stored securely and is only used to provide you with personalized support. We do not use your personal conversations to improve or train our AI systems.
             </p>
             <p className="mb-6">
-              Our AI models are trained on carefully curated, anonymized datasets from consenting sources and publicly available therapeutic resources—never from private user conversations.
+              Our AI models are trained on carefully curated, anonymized datasets from consenting sources and publicly available coaching resources—never from private user conversations.
             </p>
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Data Storage and Security</h2>
@@ -89,7 +90,7 @@ export default function PrivacyPolicy() {
               We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except in the following limited circumstances:
             </p>
             <ul className="list-disc pl-6 mb-6 space-y-2">
-              <li>With service providers who help us operate TherapyKin (e.g., cloud storage, payment processing)</li>
+              <li>With service providers who help us operate Stride (e.g., cloud storage, payment processing)</li>
               <li>To comply with legal obligations</li>
               <li>To protect our rights, privacy, safety, or property</li>
               <li>In connection with a business transfer (e.g., merger or acquisition)</li>
@@ -116,7 +117,7 @@ export default function PrivacyPolicy() {
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Children's Privacy</h2>
             <p className="mb-6">
-              TherapyKin is not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If we learn that we have collected personal information from a child under 18, we will take steps to delete that information as quickly as possible.
+              Stride is not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If we learn that we have collected personal information from a child under 18, we will take steps to delete that information as quickly as possible.
             </p>
             
             <h2 className="text-2xl font-semibold mt-10 mb-4">Changes to This Privacy Policy</h2>
@@ -128,8 +129,8 @@ export default function PrivacyPolicy() {
             <p className="mb-6">
               If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us at:
             </p>
-            <p className="mb-2">Email: privacy@therapykin.ai</p>
-            <p className="mb-2">Address: 123 Wellness Street, Suite 456, San Francisco, CA 94103</p>
+            <p className="mb-2">Email: privacy@stridecoaching.ai</p>
+            <p className="mb-2">Address: 123 Innovation Way, Suite 456, San Francisco, CA 94103</p>
             <p className="mb-6">Phone: (555) 123-4567</p>
           </div>
           
