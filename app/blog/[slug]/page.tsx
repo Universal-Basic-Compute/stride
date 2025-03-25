@@ -188,7 +188,7 @@ export default function BlogPost() {
               sources={post.sources ? post.sources.map((source, index) => ({
                 id: index,
                 text: 'name' in source ? source.name : source.text,
-                url: source.url
+                url: 'url' in source ? source.url : undefined
               })) : undefined}
             />
           </div>
