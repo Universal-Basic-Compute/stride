@@ -1,10 +1,8 @@
 // Import blog posts
-import { post as mentalAgilityPost } from './mental-agility-top-performers';
 import { post as coachingGapPost } from './coaching-gap-traditional-executive-coaching';
 
 // Array of blog posts
 export const blogPosts = [
-  mentalAgilityPost,
   coachingGapPost
 ];
 
