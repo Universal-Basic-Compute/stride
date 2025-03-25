@@ -12,9 +12,9 @@ export default function Features() {
       <main className="flex-grow pt-24 pb-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">TherapyKin Features</h1>
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">Stride Features</h1>
             <p className="text-foreground/70 max-w-3xl mx-auto">
-              Discover how TherapyKin's innovative features create a personalized therapeutic experience that evolves with you over time.
+              Discover how Stride's innovative features create a personalized coaching experience that evolves with you over time.
             </p>
           </div>
           
@@ -31,13 +31,13 @@ export default function Features() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Continuous Memory</h3>
                 <p className="text-foreground/70 mb-6">
-                  Unlike traditional therapy apps that reset with each session, TherapyKin builds a comprehensive understanding of you over time. It remembers your history, preferences, challenges, and progress—no need to repeat yourself or start over.
+                  Unlike traditional coaching apps that reset with each session, Stride builds a comprehensive understanding of you over time. It remembers your history, preferences, challenges, and progress—no need to repeat yourself or start over.
                 </p>
                 <div className="card p-4 bg-[var(--background-alt)]">
                   <div className="flex items-start mb-4">
-                    <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">TK</div>
+                    <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">S</div>
                     <div className="bg-[var(--background)] p-3 rounded-lg rounded-tl-none max-w-xs">
-                      <p className="text-sm">Last week you mentioned feeling anxious about your presentation. How did it go? Did the breathing techniques we practiced help?</p>
+                      <p className="text-sm">Last week you mentioned feeling stuck on your project timeline. How did the prioritization exercise we discussed work out for you?</p>
                     </div>
                   </div>
                 </div>
@@ -52,13 +52,13 @@ export default function Features() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Personalized Strategies</h3>
                 <p className="text-foreground/70 mb-6">
-                  TherapyKin adapts to your unique needs, learning which therapeutic approaches work best for you. It provides custom coping techniques and strategies based on your specific challenges, preferences, and progress.
+                  Stride adapts to your unique needs, learning which coaching approaches work best for you. It provides custom strategies and techniques based on your specific challenges, preferences, and progress.
                 </p>
                 <div className="card p-4 bg-[var(--background-alt)]">
                   <div className="flex items-start mb-4">
-                    <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">TK</div>
+                    <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">S</div>
                     <div className="bg-[var(--background)] p-3 rounded-lg rounded-tl-none max-w-xs">
-                      <p className="text-sm">I've noticed the body scan meditation works well for you. Would you like to try a slightly longer version today that includes a focus on areas where you typically hold tension?</p>
+                      <p className="text-sm">I've noticed the Pomodoro technique works well for your productivity style. Would you like to try an enhanced version today that includes structured reflection periods?</p>
                     </div>
                   </div>
                 </div>
@@ -74,14 +74,14 @@ export default function Features() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">Progress Visualization</h3>
                 <p className="text-foreground/70 mb-6">
-                  Track your mental health journey with intuitive tools that show patterns, insights, and growth over time. TherapyKin helps you recognize your progress and understand the factors that influence your wellbeing.
+                  Track your professional journey with intuitive tools that show patterns, insights, and growth over time. Stride helps you recognize your progress and understand the factors that influence your performance.
                 </p>
                 <div className="card p-4 bg-[var(--background-alt)]">
                   <div className="space-y-3">
                     <div>
                       <div className="flex justify-between mb-1">
-                        <span className="text-sm">Anxiety Levels</span>
-                        <span className="text-sm text-[var(--primary)]">-23%</span>
+                        <span className="text-sm">Goal Completion Rate</span>
+                        <span className="text-sm text-[var(--primary)]">+23%</span>
                       </div>
                       <div className="w-full h-2 bg-[var(--background)] rounded-full overflow-hidden">
                         <div className="w-3/4 h-full bg-[var(--primary)]"></div>
@@ -89,7 +89,7 @@ export default function Features() {
                     </div>
                     <div>
                       <div className="flex justify-between mb-1">
-                        <span className="text-sm">Mindfulness Practice</span>
+                        <span className="text-sm">Focus Sessions</span>
                         <span className="text-sm text-[var(--primary)]">+45%</span>
                       </div>
                       <div className="w-full h-2 bg-[var(--background)] rounded-full overflow-hidden">
@@ -108,13 +108,13 @@ export default function Features() {
                 </div>
                 <h3 className="text-xl font-semibold mb-4">In-the-Moment Support</h3>
                 <p className="text-foreground/70 mb-6">
-                  Get help exactly when you need it, whether scheduled or during unexpected difficulties. TherapyKin is available 24/7 for both brief check-ins and deeper sessions, providing support during critical moments.
+                  Get coaching exactly when you need it, whether scheduled or during unexpected challenges. Stride is available 24/7 for both brief check-ins and deeper strategic sessions, providing support during critical moments.
                 </p>
                 <div className="card p-4 bg-[var(--background-alt)]">
                   <div className="flex items-start mb-4">
-                    <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">TK</div>
+                    <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">S</div>
                     <div className="bg-[var(--background)] p-3 rounded-lg rounded-tl-none max-w-xs">
-                      <p className="text-sm">I can see you're feeling overwhelmed right now. Let's take a moment to ground ourselves. Focus on your breath with me for just 30 seconds...</p>
+                      <p className="text-sm">I can see you're feeling overwhelmed with your current workload. Let's take a moment to prioritize your tasks and create a manageable plan for the next 24 hours.</p>
                     </div>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ export default function Features() {
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Seamless Text & Voice Interaction</h3>
                   <p className="text-foreground/70 mb-6">
-                    Communicate with TherapyKin however feels most comfortable for you. Switch seamlessly between text and voice—even mid-conversation—as your needs and preferences change.
+                    Communicate with Stride however feels most comfortable for you. Switch seamlessly between text and voice—even mid-conversation—as your needs and preferences change.
                   </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -159,14 +159,14 @@ export default function Features() {
                     <div className="flex items-start mb-4">
                       <div className="w-10 h-10 rounded-full bg-[var(--primary)]/20 flex items-center justify-center text-[var(--primary)] font-bold mr-3 mt-1">U</div>
                       <div className="bg-[var(--primary)]/10 p-3 rounded-lg rounded-tl-none max-w-xs">
-                        <p className="text-sm">I'm feeling too anxious to type everything out right now.</p>
+                        <p className="text-sm">I'm driving to my meeting and need to prepare my talking points.</p>
                       </div>
                     </div>
                     <div className="flex items-start mb-4 justify-end">
                       <div className="bg-[var(--background-alt)] p-3 rounded-lg rounded-tr-none max-w-xs">
-                        <p className="text-sm">That's completely fine. Would you prefer to switch to voice mode? You can just talk to me instead of typing.</p>
+                        <p className="text-sm">I understand you're on the go. Would you prefer to switch to voice mode so we can prepare your talking points hands-free?</p>
                       </div>
-                      <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold ml-3 mt-1">TK</div>
+                      <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold ml-3 mt-1">S</div>
                     </div>
                     <div className="flex justify-center">
                       <div className="bg-[var(--background)] p-2 rounded-full shadow-sm flex items-center">
@@ -189,7 +189,7 @@ export default function Features() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Multi-Device Access</h3>
                 <p className="text-foreground/70">
-                  Access TherapyKin from your phone, tablet, computer, or smart speaker. Your therapeutic relationship continues seamlessly across all your devices.
+                  Access Stride from your phone, tablet, computer, or smart speaker. Your coaching relationship continues seamlessly across all your devices.
                 </p>
               </div>
               
@@ -201,7 +201,7 @@ export default function Features() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Voice Customization</h3>
                 <p className="text-foreground/70">
-                  Choose from a variety of natural-sounding voices for TherapyKin's responses. Select the voice that feels most comfortable and supportive for your therapeutic journey.
+                  Choose from a variety of natural-sounding voices for Stride's responses. Select the voice that feels most comfortable and motivating for your coaching journey.
                 </p>
               </div>
               
@@ -213,89 +213,89 @@ export default function Features() {
                 </div>
                 <h3 className="text-xl font-semibold mb-3">Natural Conversation</h3>
                 <p className="text-foreground/70">
-                  Interact with TherapyKin through natural conversation—just like texting or talking with a therapist. No complicated interfaces or rigid structures, just genuine dialogue.
+                  Interact with Stride through natural conversation—just like texting or talking with a human coach. No complicated interfaces or rigid structures, just genuine dialogue.
                 </p>
               </div>
             </div>
           </section>
           
-          {/* Therapeutic Approaches */}
+          {/* Coaching Approaches */}
           <section className="mb-20">
-            <h2 className="text-2xl font-bold mb-8 text-center">Evidence-Based Approaches</h2>
+            <h2 className="text-2xl font-bold mb-8 text-center">Specialized Coaching Modes</h2>
             
             <p className="text-center max-w-3xl mx-auto mb-12 text-foreground/70">
-              TherapyKin incorporates techniques from proven therapeutic modalities, delivered conversationally and adapted to your specific needs.
+              Stride incorporates techniques from proven coaching methodologies, delivered conversationally and adapted to your specific needs.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="card p-6 hover:shadow-depth transition-all">
-                <h3 className="text-xl font-semibold mb-3">Cognitive Behavioral Therapy (CBT)</h3>
+                <h3 className="text-xl font-semibold mb-3">Strategy Mode</h3>
                 <p className="text-foreground/70 mb-4">
-                  Identify and change unhelpful thought patterns that affect your emotions and behaviors.
+                  Big-picture thinking and long-term planning to help you develop vision alignment and priority identification.
                 </p>
                 <div className="bg-[var(--background-alt)] p-3 rounded-lg text-sm">
                   <p className="italic">
-                    "I notice you're having that thought again—'I'll never be good enough.' Let's examine the evidence for and against this belief."
+                    "Let's take a step back and look at how this project aligns with your quarterly objectives. What would success look like six months from now?"
                   </p>
                 </div>
               </div>
               
               <div className="card p-6 hover:shadow-depth transition-all">
-                <h3 className="text-xl font-semibold mb-3">Dialectical Behavior Therapy (DBT)</h3>
+                <h3 className="text-xl font-semibold mb-3">Analysis Mode</h3>
                 <p className="text-foreground/70 mb-4">
-                  Build skills in mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness.
+                  Data-driven insights and pattern recognition to help you track progress and provide objective assessment.
                 </p>
                 <div className="bg-[var(--background-alt)] p-3 rounded-lg text-sm">
                   <p className="italic">
-                    "When you feel overwhelmed, let's try the TIPP skills we discussed—Temperature change, Intense exercise, Paced breathing, and Progressive muscle relaxation."
+                    "I've noticed that your productivity peaks on Tuesdays and Wednesdays, but tends to drop on Fridays. Let's explore what factors might be influencing this pattern."
                   </p>
                 </div>
               </div>
               
               <div className="card p-6 hover:shadow-depth transition-all">
-                <h3 className="text-xl font-semibold mb-3">Acceptance and Commitment Therapy (ACT)</h3>
+                <h3 className="text-xl font-semibold mb-3">Facilitation Mode</h3>
                 <p className="text-foreground/70 mb-4">
-                  Learn to accept difficult thoughts and feelings while committing to behaviors aligned with your values.
+                  Meeting preparation, communication strategies, and process optimization to enhance your workflow.
                 </p>
                 <div className="bg-[var(--background-alt)] p-3 rounded-lg text-sm">
                   <p className="italic">
-                    "Instead of fighting against these feelings, can we practice making room for them while still moving toward what matters to you?"
+                    "For tomorrow's team meeting, let's structure an agenda that addresses the key concerns while leaving room for collaborative problem-solving."
                   </p>
                 </div>
               </div>
               
               <div className="card p-6 hover:shadow-depth transition-all">
-                <h3 className="text-xl font-semibold mb-3">Mindfulness Practices</h3>
+                <h3 className="text-xl font-semibold mb-3">Connection Mode</h3>
                 <p className="text-foreground/70 mb-4">
-                  Develop present-moment awareness and non-judgmental attention to thoughts, feelings, and sensations.
+                  Relationship management insights, networking strategies, and team dynamics to improve your interpersonal effectiveness.
                 </p>
                 <div className="bg-[var(--background-alt)] p-3 rounded-lg text-sm">
                   <p className="italic">
-                    "Let's take a moment to notice what's happening right now—what sensations do you feel in your body? What thoughts are passing through your mind?"
+                    "When approaching this difficult conversation with your colleague, consider starting with appreciation before addressing the concerns you've mentioned."
                   </p>
                 </div>
               </div>
               
               <div className="card p-6 hover:shadow-depth transition-all">
-                <h3 className="text-xl font-semibold mb-3">Positive Psychology</h3>
+                <h3 className="text-xl font-semibold mb-3">Implementation Mode</h3>
                 <p className="text-foreground/70 mb-4">
-                  Focus on strengths, resilience, and positive experiences to enhance wellbeing and life satisfaction.
+                  Action plan development, task management, and execution strategy to enhance your productivity.
                 </p>
                 <div className="bg-[var(--background-alt)] p-3 rounded-lg text-sm">
                   <p className="italic">
-                    "You've shown remarkable perseverance through this challenge. What strengths did you draw on that you might apply to other areas of your life?"
+                    "Let's break down this project into specific action items with clear owners and deadlines to ensure consistent progress toward your goal."
                   </p>
                 </div>
               </div>
               
               <div className="card p-6 hover:shadow-depth transition-all">
-                <h3 className="text-xl font-semibold mb-3">Solution-Focused Brief Therapy</h3>
+                <h3 className="text-xl font-semibold mb-3">Challenge Mode</h3>
                 <p className="text-foreground/70 mb-4">
-                  Concentrate on solutions rather than problems, identifying what works and doing more of it.
+                  Cognitive bias identification, assumption testing, and constructive pushback to help you overcome plateaus.
                 </p>
                 <div className="bg-[var(--background-alt)] p-3 rounded-lg text-sm">
                   <p className="italic">
-                    "Think of a time when you handled a similar situation successfully. What did you do then that you could apply now?"
+                    "I'd like to challenge that assumption. What evidence do you have that this approach won't work? What might happen if you tried it anyway?"
                   </p>
                 </div>
               </div>
@@ -311,7 +311,7 @@ export default function Features() {
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Built with Privacy as the Foundation</h3>
                   <p className="text-foreground/70 mb-6">
-                    TherapyKin was designed from the ground up with your privacy as the top priority. We believe your therapeutic journey should be completely private and secure.
+                    Stride was designed from the ground up with your privacy as the top priority. We believe your coaching journey should be completely private and secure.
                   </p>
                   <ul className="space-y-4">
                     <li className="flex items-start">
@@ -404,9 +404,9 @@ export default function Features() {
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div className="card p-8 shadow-depth">
-                <h3 className="text-xl font-semibold mb-4">Mood & Pattern Analysis</h3>
+                <h3 className="text-xl font-semibold mb-4">Performance & Pattern Analysis</h3>
                 <p className="text-foreground/70 mb-6">
-                  TherapyKin analyzes patterns in your conversations and mood over time, providing insights about factors that influence your mental wellbeing. Identify triggers, track progress, and understand your unique patterns.
+                  Stride analyzes patterns in your work habits and performance over time, providing insights about factors that influence your productivity and success. Identify triggers, track progress, and understand your unique patterns.
                 </p>
                 <div className="bg-[var(--background-alt)] p-4 rounded-lg">
                   <h4 className="font-medium mb-3">Your Monthly Insights</h4>
@@ -415,19 +415,19 @@ export default function Features() {
                       <svg className="h-4 w-4 text-[var(--primary)] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                       </svg>
-                      <span>Your mood tends to improve after morning exercise sessions</span>
+                      <span>Your productivity increases by 27% when you start with focused work before checking email</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="h-4 w-4 text-[var(--primary)] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6" />
                       </svg>
-                      <span>Work meetings on Mondays correlate with increased anxiety</span>
+                      <span>Meeting-heavy days correlate with a 32% decrease in task completion</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="h-4 w-4 text-[var(--primary)] mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                       </svg>
-                      <span>Mindfulness practice consistency has increased by 35%</span>
+                      <span>Your goal achievement rate has increased by 35% this quarter</span>
                     </li>
                   </ul>
                 </div>
@@ -436,28 +436,28 @@ export default function Features() {
               <div className="card p-8 shadow-depth">
                 <h3 className="text-xl font-semibold mb-4">Personalized Growth Plan</h3>
                 <p className="text-foreground/70 mb-6">
-                  Based on your interactions, TherapyKin develops a customized growth plan with specific skills to practice, goals to work toward, and strategies tailored to your needs. The plan evolves as you progress.
+                  Based on your interactions, Stride develops a customized growth plan with specific skills to practice, goals to work toward, and strategies tailored to your needs. The plan evolves as you progress.
                 </p>
                 <div className="bg-[var(--background-alt)] p-4 rounded-lg">
                   <h4 className="font-medium mb-3">Your Current Focus Areas</h4>
                   <div className="space-y-3">
                     <div>
                       <div className="flex justify-between mb-1">
-                        <span className="text-sm font-medium">Stress Management</span>
+                        <span className="text-sm font-medium">Strategic Thinking</span>
                         <span className="text-xs bg-[var(--primary)]/10 text-[var(--primary)] px-2 py-0.5 rounded-full">In Progress</span>
                       </div>
-                      <p className="text-xs text-foreground/70">Daily 5-minute breathing exercises</p>
+                      <p className="text-xs text-foreground/70">Weekly scenario planning exercises</p>
                     </div>
                     <div>
                       <div className="flex justify-between mb-1">
-                        <span className="text-sm font-medium">Negative Thought Patterns</span>
+                        <span className="text-sm font-medium">Delegation Skills</span>
                         <span className="text-xs bg-[var(--primary)]/10 text-[var(--primary)] px-2 py-0.5 rounded-full">In Progress</span>
                       </div>
-                      <p className="text-xs text-foreground/70">Thought record practice 3x weekly</p>
+                      <p className="text-xs text-foreground/70">Task analysis and team capability mapping</p>
                     </div>
                     <div>
                       <div className="flex justify-between mb-1">
-                        <span className="text-sm font-medium">Sleep Improvement</span>
+                        <span className="text-sm font-medium">Presentation Skills</span>
                         <span className="text-xs bg-[var(--background)] px-2 py-0.5 rounded-full">Upcoming</span>
                       </div>
                       <p className="text-xs text-foreground/70">Starting next week</p>
@@ -468,51 +468,84 @@ export default function Features() {
             </div>
           </section>
           
-          {/* Crisis Resources */}
+          {/* Integration Features */}
           <section className="mb-20">
-            <h2 className="text-2xl font-bold mb-8 text-center">Crisis Resources</h2>
+            <h2 className="text-2xl font-bold mb-8 text-center">Smart Integrations</h2>
             
             <div className="card p-8 shadow-depth">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div>
-                  <h3 className="text-xl font-semibold mb-4">Immediate Support When Needed</h3>
+                  <h3 className="text-xl font-semibold mb-4">Connect Your Workflow Tools</h3>
                   <p className="text-foreground/70 mb-6">
-                    While TherapyKin is not a crisis service, it provides immediate grounding techniques during difficult moments and can seamlessly connect you with human support when needed for your safety and wellbeing.
+                    Stride integrates with your existing productivity tools to provide context-aware coaching and streamline your workflow. Connect your calendar, task manager, and more for a seamless experience.
                   </p>
-                  <div className="bg-purple-50 dark:bg-purple-900/20 border border-purple-200 dark:border-purple-800/30 rounded-lg p-4 mb-6">
-                    <h4 className="font-medium text-purple-800 dark:text-purple-300 mb-2">Important Note</h4>
-                    <p className="text-sm text-purple-700 dark:text-purple-400">
-                      TherapyKin is not designed to address mental health emergencies. If you're experiencing a crisis, please contact emergency services (911) or a crisis helpline like the National Suicide Prevention Lifeline (988).
+                  <div className="bg-[var(--background-alt)] border border-[var(--primary)]/20 rounded-lg p-4 mb-6">
+                    <h4 className="font-medium text-[var(--primary)] mb-2">Professional & Enterprise Features</h4>
+                    <p className="text-sm">
+                      Advanced integrations are available on our Professional and Enterprise plans, allowing for deeper workflow connections and team collaboration features.
                     </p>
                   </div>
                   <p className="text-foreground/70">
-                    TherapyKin can help you identify when you might need additional support and provide resources appropriate to your situation.
+                    Stride can help you prepare for meetings, manage tasks, and track progress across your entire productivity ecosystem.
                   </p>
                 </div>
                 <div>
                   <div className="card p-6 shadow-depth">
-                    <div className="flex items-start mb-4">
-                      <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">TK</div>
-                      <div className="bg-[var(--background-alt)] p-3 rounded-lg rounded-tl-none max-w-xs">
-                        <p className="text-sm">I'm noticing that you're expressing thoughts of hopelessness. Would it be helpful if I shared some immediate coping strategies, or would you prefer resources to connect with a crisis counselor?</p>
+                    <h4 className="font-medium mb-4">Available Integrations</h4>
+                    <div className="grid grid-cols-3 gap-4">
+                      <div className="flex flex-col items-center">
+                        <div className="w-12 h-12 rounded-lg bg-[var(--background-alt)] flex items-center justify-center mb-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                          </svg>
+                        </div>
+                        <span className="text-xs">Calendar</span>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-12 h-12 rounded-lg bg-[var(--background-alt)] flex items-center justify-center mb-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                          </svg>
+                        </div>
+                        <span className="text-xs">Tasks</span>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-12 h-12 rounded-lg bg-[var(--background-alt)] flex items-center justify-center mb-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                          </svg>
+                        </div>
+                        <span className="text-xs">Email</span>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-12 h-12 rounded-lg bg-[var(--background-alt)] flex items-center justify-center mb-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m-6-8h6M5 5h14a2 2 0 012 2v10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2z" />
+                          </svg>
+                        </div>
+                        <span className="text-xs">Notes</span>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-12 h-12 rounded-lg bg-[var(--background-alt)] flex items-center justify-center mb-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
+                          </svg>
+                        </div>
+                        <span className="text-xs">Chat</span>
+                      </div>
+                      <div className="flex flex-col items-center">
+                        <div className="w-12 h-12 rounded-lg bg-[var(--background-alt)] flex items-center justify-center mb-2">
+                          <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-[var(--primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 12l3-3 3 3 4-4M8 21l4-4 4 4M3 4h18M4 4h16v12a1 1 0 01-1 1H5a1 1 0 01-1-1V4z" />
+                          </svg>
+                        </div>
+                        <span className="text-xs">Analytics</span>
                       </div>
                     </div>
-                    <div className="flex items-start mb-4 justify-end">
-                      <div className="bg-[var(--primary)]/10 p-3 rounded-lg rounded-tr-none max-w-xs">
-                        <p className="text-sm">I think I need to talk to someone right now.</p>
-                      </div>
-                      <div className="w-10 h-10 rounded-full bg-[var(--primary)]/20 flex items-center justify-center text-[var(--primary)] font-bold ml-3 mt-1">U</div>
-                    </div>
-                    <div className="flex items-start">
-                      <div className="w-10 h-10 rounded-full bg-[var(--accent)]/20 flex items-center justify-center text-[var(--accent)] font-bold mr-3 mt-1">TK</div>
-                      <div className="bg-[var(--background-alt)] p-3 rounded-lg rounded-tl-none max-w-xs">
-                        <p className="text-sm">I understand. Here are immediate resources:</p>
-                        <ul className="mt-2 space-y-1 text-sm">
-                          <li>• National Suicide Prevention Lifeline: 988</li>
-                          <li>• Crisis Text Line: Text HOME to 741741</li>
-                          <li className="mt-2">Would you like me to connect you directly?</li>
-                        </ul>
-                      </div>
+                    <div className="mt-6">
+                      <button className="w-full bg-[var(--primary)] text-white py-2 rounded-lg text-sm">
+                        Connect Your Tools
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -523,16 +556,16 @@ export default function Features() {
           {/* CTA */}
           <section>
             <div className="card p-8 shadow-depth text-center">
-              <h2 className="text-2xl font-bold mb-4">Experience TherapyKin For Yourself</h2>
+              <h2 className="text-2xl font-bold mb-4">Experience Stride For Yourself</h2>
               <p className="text-foreground/70 mb-8 max-w-2xl mx-auto">
-                Start your journey with a therapeutic companion that remembers, adapts, and grows with you. No credit card required for your 3 free sessions.
+                Start your journey with a coaching companion that remembers, adapts, and grows with you. No credit card required for your 14-day free trial.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link 
-                  href="/signup?plan=free" 
+                  href="/register" 
                   className="btn-primary px-8 py-3 text-lg"
                 >
-                  Get 3 Free Sessions
+                  Try Stride Free
                 </Link>
                 <Link 
                   href="/pricing" 
