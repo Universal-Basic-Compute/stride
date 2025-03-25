@@ -17,11 +17,33 @@ export default function Home() {
       <Header />
       
       <div className="pt-16">
-      {/* Hero Section */}
-      <header className="flex flex-col items-center justify-center text-center py-24 px-4 bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] texture-overlay animated-bg relative">
+      {/* Hero Section with improved background */}
+      <header className="flex flex-col items-center justify-center text-center py-24 px-4 relative overflow-hidden">
+        {/* Modern gradient background with animated elements */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#3563E9] via-[#4F74FF] to-[#6B8EFC] z-0">
+          {/* Abstract geometric shapes for visual interest */}
+          <div className="absolute top-0 right-0 w-full h-full overflow-hidden opacity-10">
+            <div className="absolute top-[10%] right-[5%] w-64 h-64 rounded-full bg-white"></div>
+            <div className="absolute bottom-[20%] left-[10%] w-40 h-40 rounded-full bg-white"></div>
+          </div>
+          
+          {/* Animated subtle wave pattern */}
+          <div className="absolute inset-0 opacity-20">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1440 320" preserveAspectRatio="none">
+              <path fill="#ffffff" fillOpacity="1" d="M0,192L48,197.3C96,203,192,213,288,229.3C384,245,480,267,576,250.7C672,235,768,181,864,181.3C960,181,1056,235,1152,234.7C1248,235,1344,181,1392,154.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+          </div>
+          
+          {/* Subtle grid pattern overlay */}
+          <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djZoNnYtNmgtNnptMC0zMHY2aDZ2LTZoLTZ6bTAgMTJ2NmgxOHYtNkgzNnptMCAxMnY2aDE4di02SDM2em0wIDEydjZoMTh2LTZIMzZ6TTAgMzR2NmgzMHYtNkgwem0wLTMwdjZoMzB2LTZIMHptMCAxMnY2aDMwdi02SDB6bTAgMTJ2NmgzMHYtNkgwem0wIDEydjZoMzB2LTZIMHoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-10"></div>
+        </div>
+        
+        {/* Content with improved visual treatment */}
         <div className="animate-fade-in max-w-6xl mx-auto text-white z-10 relative">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-md">Your AI Executive Coach</h1>
-          <h2 className="text-xl md:text-2xl max-w-3xl mb-8 text-white font-medium drop-shadow-md">
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white drop-shadow-md">
+            Your AI Executive Coach
+          </h1>
+          <h2 className="text-xl md:text-2xl max-w-3xl mx-auto mb-8 text-white font-medium drop-shadow-md">
             Strategic guidance for professional excellence, available 24/7 to accelerate your career growth.
           </h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -40,14 +62,10 @@ export default function Home() {
           </div>
         </div>
         
-        {/* Add semi-transparent overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/20 z-0"></div>
-        
-        {/* Add decorative elements */}
-        <div className="absolute top-0 right-0 w-full h-full overflow-hidden z-[-1] opacity-10">
-          <div className="absolute top-[10%] right-[5%] w-64 h-64 rounded-full bg-white"></div>
-          <div className="absolute bottom-[20%] left-[10%] w-40 h-40 rounded-full bg-white"></div>
-        </div>
+        {/* Floating abstract elements for depth */}
+        <div className="absolute top-1/4 left-1/4 w-8 h-8 rounded-full bg-white opacity-20 animate-float"></div>
+        <div className="absolute bottom-1/3 right-1/4 w-6 h-6 rounded-full bg-white opacity-10 animate-float-delayed"></div>
+        <div className="absolute top-1/2 right-1/3 w-4 h-4 rounded-full bg-white opacity-15 animate-float-slow"></div>
       </header>
 
       {/* Value Proposition Strip */}
