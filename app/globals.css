@@ -35,7 +35,9 @@
   
   /* RGB variables for glow effects */
   --primary-rgb: 53, 99, 233; /* Blue */
+  --primary-light-rgb: 107, 142, 252; /* Lighter blue */
   --accent-rgb: 34, 197, 94; /* Green */
+  --accent-light-rgb: 74, 222, 128; /* Lighter green */
   --primary-dark-rgb: 30, 58, 138; /* Dark blue */
 }
 
@@ -84,6 +86,9 @@
     
     /* RGB variables for dark mode */
     --primary-rgb: 79, 116, 255; /* Brighter blue for dark mode */
+    --primary-light-rgb: 123, 150, 255; /* Lighter blue for dark mode */
+    --accent-rgb: 34, 197, 94; /* Keep green */
+    --accent-light-rgb: 74, 222, 128; /* Lighter green */
   }
   
   .card-hover-glow:hover {
@@ -116,42 +121,219 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Button styling */
+/* Base button styles with gradient */
 .btn-primary {
-  background: var(--primary);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
   color: white;
   border-radius: 9999px;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 10px rgba(var(--primary-rgb), 0.3);
+  z-index: 1;
 }
 
 .btn-primary:hover {
-  background: var(--primary-dark);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(var(--primary-rgb), 0.4);
 }
 
+.btn-primary:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px rgba(var(--primary-rgb), 0.4);
+}
+
+/* Add shine effect */
+.btn-primary::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(30deg);
+  z-index: -1;
+  transition: transform 0.5s ease;
+  pointer-events: none;
+}
+
+.btn-primary:hover::after {
+  transform: rotate(30deg) translate(10%, 10%);
+}
+
+/* Secondary button with gradient border */
 .btn-secondary {
   background: transparent;
   color: var(--foreground);
-  border: 1px solid var(--border);
   border-radius: 9999px;
   padding: 0.75rem 1.5rem;
   font-weight: 500;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  border: none;
+}
+
+.btn-secondary::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  padding: 2px; /* the width of the gradient border */
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: -1;
+  transition: all 0.3s ease;
 }
 
 .btn-secondary:hover {
-  background: rgba(0, 0, 0, 0.05);
+  color: var(--primary);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(var(--primary-rgb), 0.15);
 }
 
-/* Add dark mode specific button styles */
-.dark .btn-secondary {
-  color: var(--foreground);
-  border-color: rgba(255, 255, 255, 0.2);
+.btn-secondary:active {
+  transform: translateY(0);
 }
 
-.dark .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.1);
+/* Accent button with different gradient */
+.btn-accent {
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+  color: white;
+  border-radius: 9999px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 4px 10px rgba(var(--accent-rgb), 0.3);
+  z-index: 1;
+}
+
+.btn-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(var(--accent-rgb), 0.4);
+}
+
+.btn-accent::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(30deg);
+  z-index: -1;
+  transition: transform 0.5s ease;
+  pointer-events: none;
+}
+
+.btn-accent:hover::after {
+  transform: rotate(30deg) translate(10%, 10%);
+}
+
+/* Pulsing animation for CTA buttons */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(var(--primary-rgb), 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(var(--primary-rgb), 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(var(--primary-rgb), 0);
+  }
+}
+
+.btn-cta {
+  animation: pulse 2s infinite;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .btn-primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    box-shadow: 0 4px 15px rgba(var(--primary-rgb), 0.4);
+  }
+  
+  .btn-primary:hover {
+    box-shadow: 0 6px 20px rgba(var(--primary-rgb), 0.5);
+  }
+  
+  .btn-secondary {
+    color: var(--foreground);
+  }
+  
+  .btn-secondary:hover {
+    background-color: rgba(var(--primary-rgb), 0.1);
+  }
+  
+  .btn-accent {
+    box-shadow: 0 4px 15px rgba(var(--accent-rgb), 0.4);
+  }
+  
+  .btn-accent:hover {
+    box-shadow: 0 6px 20px rgba(var(--accent-rgb), 0.5);
+  }
+}
+
+/* Button size variations */
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.125rem;
+}
+
+/* Special effect for hero CTA button */
+.hero-btn {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.hero-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
+  transition: left 0.7s ease;
+  z-index: -1;
+}
+
+.hero-btn:hover::before {
+  left: 100%;
 }
 
 /* Gradient backgrounds with logo colors */

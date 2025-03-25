@@ -27,13 +27,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/register" 
-              className="btn-primary bg-white text-[#3563E9] hover:bg-opacity-90 shadow-lg"
+              className="btn-primary hero-btn btn-lg"
             >
               TRY STRIDE FREE
             </Link>
             <Link 
               href="/learn-more" 
-              className="btn-secondary bg-transparent text-white border-white hover:bg-white/20 shadow-md"
+              className="btn-secondary btn-lg"
             >
               See how it works →
             </Link>
@@ -552,7 +552,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               href="/register" 
-              className="rounded-full bg-white text-[#3563E9] px-8 py-3 font-medium hover:bg-opacity-90 transition-all shadow-lg"
+              className="rounded-full bg-white text-[#3563E9] px-8 py-3 font-medium hover:bg-opacity-90 transition-all shadow-lg hero-btn btn-cta"
             >
               TRY STRIDE FREE FOR 14 DAYS
             </Link>
