@@ -7,7 +7,7 @@ export default function GettingStarted() {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold mb-4 text-center">Getting Started Is Simple</h2>
         <p className="text-center max-w-2xl mx-auto mb-16 text-foreground/70">
-          Begin your journey with TherapyKin in just a few easy steps
+          Begin your journey with Stride in just a few easy steps
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
@@ -32,7 +32,7 @@ export default function GettingStarted() {
           <div className="card p-6 card-hover-rotate transition-all text-center">
             <div className="w-16 h-16 rounded-full bg-[var(--primary)] text-white flex items-center justify-center text-2xl font-bold mb-4 mx-auto">4</div>
             <h3 className="text-xl font-semibold mb-3">Build Your Relationship</h3>
-            <p className="text-foreground/70">Each conversation helps TherapyKin understand and support you better. The experience improves over time.</p>
+            <p className="text-foreground/70">Each conversation helps Stride understand and support you better. The experience improves over time.</p>
           </div>
         </div>
         
@@ -43,7 +43,7 @@ export default function GettingStarted() {
           >
             Get 3 Free Sessions - No Credit Card Required
           </Link>
-          <p className="mt-4 text-foreground/60">Try TherapyKin with our free tier today</p>
+          <p className="mt-4 text-foreground/60">Try Stride with our free tier today</p>
         </div>
       </div>
     </section>
