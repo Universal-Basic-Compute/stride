@@ -21,34 +21,34 @@ export async function GET(request: NextRequest) {
     let baseUrl;
     
     // Use different project path based on specialist type
-    if (specialist === 'crypto') {
-      // For crypto specialist
+    if (specialist === 'executive') {
+      // For executive coach specialist
       baseUrl = process.env.KINOS_API_URL 
-        ? `${process.env.KINOS_API_URL}/projects/therapykincrypto/${projectId}/messages/${messageId}`
+        ? `${process.env.KINOS_API_URL}/projects/strideexecutive/${projectId}/messages/${messageId}`
         : process.env.NODE_ENV === 'development'
-          ? `http://localhost:5000/projects/therapykincrypto/${projectId}/messages/${messageId}`
-          : `https://api.kinos-engine.ai/projects/therapykincrypto/${projectId}/messages/${messageId}`;
-    } else if (specialist === 'athletes') {
-      // For athletes specialist
+          ? `http://localhost:5000/projects/strideexecutive/${projectId}/messages/${messageId}`
+          : `https://api.kinos-engine.ai/projects/strideexecutive/${projectId}/messages/${messageId}`;
+    } else if (specialist === 'entrepreneur') {
+      // For entrepreneur coach specialist
       baseUrl = process.env.KINOS_API_URL 
-        ? `${process.env.KINOS_API_URL}/projects/therapykinathletes/${projectId}/messages/${messageId}`
+        ? `${process.env.KINOS_API_URL}/projects/strideentrepreneur/${projectId}/messages/${messageId}`
         : process.env.NODE_ENV === 'development'
-          ? `http://localhost:5000/projects/therapykinathletes/${projectId}/messages/${messageId}`
-          : `https://api.kinos-engine.ai/projects/therapykinathletes/${projectId}/messages/${messageId}`;
-    } else if (specialist === 'executives') {
-      // For executives specialist
+          ? `http://localhost:5000/projects/strideentrepreneur/${projectId}/messages/${messageId}`
+          : `https://api.kinos-engine.ai/projects/strideentrepreneur/${projectId}/messages/${messageId}`;
+    } else if (specialist === 'women') {
+      // For women's leadership coach specialist
       baseUrl = process.env.KINOS_API_URL 
-        ? `${process.env.KINOS_API_URL}/projects/therapykinexecutives/${projectId}/messages/${messageId}`
+        ? `${process.env.KINOS_API_URL}/projects/stridewomen/${projectId}/messages/${messageId}`
         : process.env.NODE_ENV === 'development'
-          ? `http://localhost:5000/projects/therapykinexecutives/${projectId}/messages/${messageId}`
-          : `https://api.kinos-engine.ai/projects/therapykinexecutives/${projectId}/messages/${messageId}`;
+          ? `http://localhost:5000/projects/stridewomen/${projectId}/messages/${messageId}`
+          : `https://api.kinos-engine.ai/projects/stridewomen/${projectId}/messages/${messageId}`;
     } else {
       // For generalist (default)
       baseUrl = process.env.KINOS_API_URL 
-        ? `${process.env.KINOS_API_URL}/projects/therapykin/${projectId}/messages/${messageId}`
+        ? `${process.env.KINOS_API_URL}/projects/stride/${projectId}/messages/${messageId}`
         : process.env.NODE_ENV === 'development'
-          ? `http://localhost:5000/projects/therapykin/${projectId}/messages/${messageId}`
-          : `https://api.kinos-engine.ai/projects/therapykin/${projectId}/messages/${messageId}`;
+          ? `http://localhost:5000/projects/stride/${projectId}/messages/${messageId}`
+          : `https://api.kinos-engine.ai/projects/stride/${projectId}/messages/${messageId}`;
     }
     
     // Call the appropriate API to check the status of the message
